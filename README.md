@@ -54,6 +54,8 @@ AZ-204 consists of five basic modules such that
     - Implement function triggers by using data operations, timers, and webhooks
     - Implement Azure Durable Functions
     - Implement custom handlers
+- **Quiz**
+    - [Develop Azure Compute Solutions Quiz]()
 
 ### 2. Implement Azure Security (20-25%)
 
@@ -66,6 +68,8 @@ AZ-204 consists of five basic modules such that
     - Develop code that uses keys, secrets, and certificates stored in Azure Key Vault
     - Implement solutions that interact with Microsoft Graph
     - Implement Managed Identities for Azure resources
+- **Quiz**
+    - [Develop Azure Compute Solutions Quiz]()
 
 ### 3. Connect to and Consume Azure Services and Third-party Services (15-20%)
 
@@ -79,6 +83,8 @@ AZ-204 consists of five basic modules such that
 - **Develop Message-Based Solutions**
     - Implement solutions that use Azure Service Bus
     - Implement solutions that use Azure Queue Storage Queues
+- **Quiz**
+    - [Implement Azure Security Quiz]()
 
 ### 4. Develop for Azure Storage (15-20%)
 
@@ -93,6 +99,8 @@ AZ-204 consists of five basic modules such that
     - Set and retrieve properties and metadata
     - Perform operations on data by using the appropriate SDK
     - Implement storage policies, and data archiving and retention
+- **Quiz**
+    - [Develop for Azure Storage Quiz]()
 
 ### 5. Monitor, Troubleshoot, and Optimize Azure Solutions (15-20%)
 
@@ -104,3 +112,5 @@ AZ-204 consists of five basic modules such that
     - Configure an app or service to use Application Insights
     - Analyze and troubleshoot solutions by using Azure Monitor
     - Implement Application Insights web tests and alerts
+- **Quiz**
+    - [Monitor, Troubleshoot, and Optimize Azure Solutions Quiz]()
