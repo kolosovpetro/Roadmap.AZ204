@@ -78,11 +78,11 @@ AZ-204 consists of five basic modules such that
     - Configure authentication for APIs
     - Define policies for APIs
 - **Develop Event-Based Solutions**
-    - Implement solutions that use Azure Event Grid
+    - [Implement solutions that use Azure Event Grid](https://github.com/kolosovpetro/EventGridDemo.AZ204)
     - Implement solutions that use Azure Event Hub
 - **Develop Message-Based Solutions**
     - Implement solutions that use Azure Service Bus
-    - Implement solutions that use Azure Queue Storage Queues
+    - [Implement solutions that use Azure Queue Storage Queues](https://github.com/kolosovpetro/StorageQueue.AZ204)
 - **Quiz**
     - [Implement Azure Security Quiz]()
 
