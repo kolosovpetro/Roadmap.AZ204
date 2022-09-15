@@ -43,9 +43,9 @@ AZ-204 consists of five basic modules such that
     - [Publish an image to the Azure Container Registry](./DevelopAzureComputeSoultions/01_publish_image_to_acr.md)
     - Run containers by using Azure Container Instance
 - **Create Azure App Service Web Apps**
-    - Create an Azure App Service Web App
+    - [Create an Azure App Service Web App](./DevelopAzureComputeSoultions/02_create_app_service_cli.md)
     - Enable diagnostic logging
-    - Deploy code to a web app
+    - [Deploy code to a web app](./DevelopAzureComputeSoultions/03_deploy_code_to_app_service.md)
     - Configure web app settings
     - Implement autoscaling rules, including scheduled autoscaling, and scaling by operational or system metrics
 - **Implement Azure Functions**
