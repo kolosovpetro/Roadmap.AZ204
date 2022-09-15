@@ -34,7 +34,7 @@ so this study approach is as well an experiment for me, we'll see how it works :
 
 AZ-204 consists of five basic modules such that
 
-### 1. Develop Azure Compute Solutions (25%)
+### 1. Develop Azure Compute Solutions (25-30%)
 
 - **Implement IaaS Solutions**
     - Provision Virtual Machines (VMs)
@@ -65,6 +65,7 @@ AZ-204 consists of five basic modules such that
     - Secure app configuration data by using the App Configuration and Azure Key Vault
     - Develop code that uses keys, secrets, and certificates stored in Azure Key Vault
     - Implement solutions that interact with Microsoft Graph
+    - Implement Managed Identities for Azure resources
 
 ### 3. Connect to and Consume Azure Services and Third-party Services (15-20%)
 
@@ -96,4 +97,10 @@ AZ-204 consists of five basic modules such that
 ### 5. Monitor, Troubleshoot, and Optimize Azure Solutions (15-20%)
 
 - **Integrate Caching and Content Delivery Within Solutions**
+    - Configure cache and expiration policies for Azure Redis cache
+    - Implement secure and optimized application cache patterns including data sizing, connections, encryption, and
+      expiration
 - **Instrument Solutions to Support Monitoring and Logging**
+    - Configure an app or service to use Application Insights
+    - Analyze and troubleshoot solutions by using Azure Monitor
+    - Implement Application Insights web tests and alerts
