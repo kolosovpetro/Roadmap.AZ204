@@ -40,7 +40,7 @@ AZ-204 consists of five basic modules such that
     - Provision Virtual Machines (VMs)
     - Configure, validate, and deploy ARM templates
     - Configure container images for solutions
-    - Publish an image to the Azure Container Registry
+    - [Publish an image to the Azure Container Registry](./DevelopAzureComputeSoultions/01_publish_image_to_acr.md)
     - Run containers by using Azure Container Instance
 - **Create Azure App Service Web Apps**
     - Create an Azure App Service Web App
