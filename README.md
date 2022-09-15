@@ -49,7 +49,7 @@ AZ-204 consists of five basic modules such that
     - Configure web app settings
     - Implement autoscaling rules, including scheduled autoscaling, and scaling by operational or system metrics
 - **Implement Azure Functions**
-    - Create and deploy Azure Functions
+    - [Create and deploy Azure Functions](./DevelopAzureComputeSoultions/04_create_and_deploy_azure_function.md)
     - Implement input and output bindings for a function
     - Implement function triggers by using data operations, timers, and webhooks
     - Implement Azure Durable Functions
