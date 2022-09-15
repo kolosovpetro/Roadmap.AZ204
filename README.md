@@ -95,7 +95,7 @@ AZ-204 consists of five basic modules such that
     - Set the appropriate consistency level for operations
     - Manage change feed notifications
 - **Develop solutions that use Blob storage**
-    - Move items in Blob storage between storage accounts or containers
+    - [Move items in Blob storage between storage accounts or containers](./DevelopForAzureStorage/01_move_items_between_blob_accounts.md)
     - Set and retrieve properties and metadata
     - Perform operations on data by using the appropriate SDK
     - Implement storage policies, and data archiving and retention
