@@ -61,7 +61,11 @@ AZ-204 consists of five basic modules such that
 
 - **Implement User Authentication and Authorization**
     - Authenticate and authorize users by using the Microsoft Identity Platform
-    - Authenticate and authorize users and apps by using Azure Active Directory
+    - [Authenticate and authorize users and apps by using Azure Active Directory](https://gist.github.com/kolosovpetro/4e2a830b51422bfce8e5bd951f76d71d)
+        - [Single and multi tenant authorization using MVC app](https://github.com/kolosovpetro/OpenIDConnect.AZ204)
+        - [Get an AAD token and use it to send messages to a Service Bus queue](https://learn.microsoft.com/en-us/rest/api/servicebus/get-azure-active-directory-token)
+        - [Role-based authorization using AAD and two web APIs](https://github.com/kolosovpetro/OpenIDConnect.AZ204.API)
+        - [Quick and simple role-based AAD authentication & authorization using JWT tokens](https://github.com/kolosovpetro/QuickAndSimpleApiAuth)
     - Create and implement shared access signatures
 - **Implement Secure Cloud Solutions**
     - Secure app configuration data by using the App Configuration and Azure Key Vault
@@ -69,7 +73,7 @@ AZ-204 consists of five basic modules such that
     - Implement solutions that interact with Microsoft Graph
     - Implement Managed Identities for Azure resources
 - **Quiz**
-    - [Develop Azure Compute Solutions Quiz]()
+    - [Implement Azure Security Quiz]()
 
 ### 3. Connect to and Consume Azure Services and Third-party Services (15-20%)
 
@@ -81,10 +85,10 @@ AZ-204 consists of five basic modules such that
     - [Implement solutions that use Azure Event Grid](https://github.com/kolosovpetro/EventGridDemo.AZ204)
     - Implement solutions that use Azure Event Hub
 - **Develop Message-Based Solutions**
-    - Implement solutions that use Azure Service Bus
+    - [Implement solutions that use Azure Service Bus](https://github.com/kolosovpetro/ServiceBusTopics.AZ204)
     - [Implement solutions that use Azure Queue Storage Queues](https://github.com/kolosovpetro/StorageQueue.AZ204)
 - **Quiz**
-    - [Implement Azure Security Quiz]()
+    - [Connect to and Consume Azure Services and Third-party Services Quiz]()
 
 ### 4. Develop for Azure Storage (15-20%)
 
@@ -96,7 +100,7 @@ AZ-204 consists of five basic modules such that
     - Manage change feed notifications
 - **Develop solutions that use Blob storage**
     - [Move items in Blob storage between storage accounts or containers](./DevelopForAzureStorage/01_move_items_between_blob_accounts.md)
-    - Set and retrieve properties and metadata
+    - [Set and retrieve properties and metadata](https://github.com/kolosovpetro/AzureStorageSDKTraining.AZ204)
     - Perform operations on data by using the appropriate SDK
     - Implement storage policies, and data archiving and retention
 - **Quiz**
