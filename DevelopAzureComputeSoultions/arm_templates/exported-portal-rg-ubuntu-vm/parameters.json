@@ -1,0 +1,89 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "westeurope"
+    },
+    "networkInterfaceName": {
+      "value": "pkolosovubuntu492"
+    },
+    "networkSecurityGroupName": {
+      "value": "pkolosovubuntu-nsg"
+    },
+    "networkSecurityGroupRules": {
+      "value": [
+        {
+          "name": "SSH",
+          "properties": {
+            "priority": 300,
+            "protocol": "TCP",
+            "access": "Allow",
+            "direction": "Inbound",
+            "sourceAddressPrefix": "*",
+            "sourcePortRange": "*",
+            "destinationAddressPrefix": "*",
+            "destinationPortRange": "22"
+          }
+        }
+      ]
+    },
+    "subnetName": {
+      "value": "default"
+    },
+    "virtualNetworkName": {
+      "value": "pkolosovubuntu-vnet"
+    },
+    "addressPrefixes": {
+      "value": [
+        "10.1.0.0/16"
+      ]
+    },
+    "subnets": {
+      "value": [
+        {
+          "name": "default",
+          "properties": {
+            "addressPrefix": "10.1.1.0/24"
+          }
+        }
+      ]
+    },
+    "publicIpAddressName": {
+      "value": "pkolosovubuntu-ip"
+    },
+    "publicIpAddressType": {
+      "value": "Dynamic"
+    },
+    "pipDeleteOption": {
+      "value": "Detach"
+    },
+    "virtualMachineName": {
+      "value": "pkolosovubuntu"
+    },
+    "virtualMachineComputerName": {
+      "value": "pkolosovubuntu"
+    },
+    "virtualMachineRG": {
+      "value": "rg-ubuntu-vm-arm"
+    },
+    "osDiskType": {
+      "value": "Premium_LRS"
+    },
+    "osDiskDeleteOption": {
+      "value": "Delete"
+    },
+    "virtualMachineSize": {
+      "value": "Standard_B1s"
+    },
+    "nicDeleteOption": {
+      "value": "Detach"
+    },
+    "adminUsername": {
+      "value": "azureuser"
+    },
+    "adminPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDQFQIrELcy9eVu7v1Z23MDQfe7o7h+0M8vPllZnjEKn1wa9ehbP4crstEPmPEsHJ1BoCYirQHhFzE/jBHwqeEm7uQearY3tb3g3yL4O7+moKncH6GCMgesDVER8tZHEhBhuXfJzzE3gwh67c/dZqDaLAAb/PgVWPlURdP2+64xsyz765LL74agnZb3PqlTYTQx62a1N9PHSZdmfzCMOrxvJeh/1N+tu5Yhzh/mM3AsXTRnXrlwTKgO8CftoQmOh3ycZm3ToBsyxfidXYSeTGPNCmguuANGecnRBdbpKhY3MzfAhwzv8kVAFPHicU+J9MFAV0nZsY3pOkvHJeenoWfvggnSK6Q/HpuBhkbADrLCoEgzGMxe3uX9m61suEPUYugIFiQ8sPNfKLLxrxZ+8rexk/erVeTlzPsRo4PCQLs2XzWB/cX/iDeEUeNT1ydDuSCNMHYA3E83R0/OrkhDqwkxP/Gl7BrXSoL9EFFgYAp4oRdx11o57HBi+MFNhP/GMcU= pkolosov@DESKTOP-1V4TC6J\n"
+    }
+  }
+}
