@@ -40,7 +40,7 @@ AZ-204 consists of five basic modules such that
     - Provision Virtual Machines (VMs)
         - [Create Windows VM using CLI](./DevelopAzureComputeSoultions/06_create_windows_vm_using_cli.md)
         - [Create Linux VM using CLI](./DevelopAzureComputeSoultions/07_create_linux_vm_using_cli.md)
-        - Create Windows VM using Az Powershell
+        - [Create Windows VM using Az Powershell](./DevelopAzureComputeSoultions/08_create_windows_vm_using_powershell.md)
     - Configure, validate, and deploy ARM templates
         - Deploy ARM template using CLI
         - Deploy ARM template using Az Powershell
