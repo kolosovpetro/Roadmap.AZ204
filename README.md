@@ -38,7 +38,12 @@ AZ-204 consists of five basic modules such that
 
 - **Implement IaaS Solutions**
     - Provision Virtual Machines (VMs)
+        - Create Windows VM using CLI
+        - Create Linux VM using CLI
+        - Create Windows VM using Az Powershell
     - Configure, validate, and deploy ARM templates
+        - Deploy ARM template using CLI
+        - Deploy ARM template using Az Powershell
     - Configure container images for solutions
     - [Publish an image to the Azure Container Registry](./DevelopAzureComputeSoultions/01_publish_image_to_acr.md)
     - [Run containers by using Azure Container Instance](./DevelopAzureComputeSoultions/05_run_containers_using_instances.md)
