@@ -64,6 +64,11 @@ AZ-204 consists of five basic modules such that
     - Implement input and output bindings for a function
     - Implement function triggers by using data operations, timers, and webhooks
     - Implement Azure Durable Functions
+        - Azure Durable Functions: Chaining
+        - Azure Durable Functions: Fan-in / Fan-out
+        - Azure Durable Functions: Async HTTP APIs
+        - Azure Durable Functions: Monitoring
+        - Azure Durable Functions: Human Interaction
     - Implement custom handlers
     - Pluralsight
       course: [Microsoft Azure Developer: Implement Azure Functions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-azure-functions/table-of-contents)
