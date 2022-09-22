@@ -15,3 +15,18 @@
 - Use `IDurableOrchestrationContext.CurrentUtcDateTime`
 - Pass configuration into your orchestrator function (from starter function for example)
 - Retrieve data in activity functions
+
+## Must be non-blocking
+
+- No I/O to disk or network
+- No Thread.Sleep
+
+## Do not initiate async operations
+
+- Except on IDurableOrchestrationContext API
+- No Task.Run, Task.Delay, HttpClient.SendAsync
+
+## Do not create infinite loops
+
+- Event history needs to be replayable
+- ContinueAsNew should be used instead
