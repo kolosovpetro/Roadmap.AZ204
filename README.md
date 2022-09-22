@@ -56,6 +56,7 @@ AZ-204 consists of five basic modules such that
     - [Deploy code to a web app](./DevelopAzureComputeSoultions/03_deploy_code_to_app_service.md)
     - Configure web app settings
     - Implement autoscaling rules, including scheduled autoscaling, and scaling by operational or system metrics
+    - [Azure App Service Plan Tiers](https://medium.com/@zaab_it/azure-app-service-plan-tiers-f07d5e22297a)
     - Pluralsight
       course: [Microsoft Azure Developer: Create Azure App Service Web Apps](https://app.pluralsight.com/library/courses/azure-developer-create-azure-app-service-web-apps/table-of-contents)
 
@@ -142,6 +143,7 @@ AZ-204 consists of five basic modules such that
     - Perform operations on data and Cosmos DB containers
     - Set the appropriate consistency level for operations
     - Manage change feed notifications
+    - [CosmosDB consistency levels](https://drive.google.com/file/d/1bmCedOjDOXpXOiW5fXQhKGFphdOyHBHn/view?usp=sharing)
     - Pluralsight
       course: [Microsoft Azure Developer: Develop Solutions with Cosmos DB Storage](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-solutions-cosmos-db-storage/table-of-contents)
 
@@ -150,6 +152,7 @@ AZ-204 consists of five basic modules such that
     - [Set and retrieve properties and metadata](https://github.com/kolosovpetro/AzureStorageSDKTraining.AZ204)
     - Perform operations on data by using the appropriate SDK
     - Implement storage policies, and data archiving and retention
+    - [Blob Storage replication strategies](https://drive.google.com/file/d/1RIrGUJw7A0_f2ldJWpF2CQX6gQ4aHm0y/view)
     - Pluralsight
       course: [Microsoft Azure Developer: Develop Solutions with Blob Storage](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-solutions-blob-storage/table-of-contents)
 
