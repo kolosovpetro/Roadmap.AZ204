@@ -69,6 +69,7 @@ AZ-204 consists of five basic modules such that
         - Azure Durable Functions: Async HTTP APIs
         - Azure Durable Functions: Monitoring
         - Azure Durable Functions: Human Interaction
+        - [!!!DO NOT DO THIS IN ORCHESTRATOR FUNCTION!!!](./DevelopAzureComputeSoultions/11_dont_do_this_in_orchestrator_function.md)
     - Implement custom handlers
     - Pluralsight
       course: [Microsoft Azure Developer: Implement Azure Functions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-azure-functions/table-of-contents)
