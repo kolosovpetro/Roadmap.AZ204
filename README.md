@@ -76,7 +76,7 @@ AZ-204 consists of five basic modules such that
       course: [Microsoft Azure Developer: Implement Azure Functions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-azure-functions/table-of-contents)
 
 - **Quiz**
-    - [Develop Azure Compute Solutions Quiz]()
+    - [Develop Azure Compute Solutions Quiz](https://quizlet.com/_c0kt4h?x=1qqt&i=2n5czk)
 
 - **Exam Alert**
     - [Exam Alert: Develop Azure Compute Solutions](https://app.pluralsight.com/library/courses/exam-alert-develop-azure-compute-solutions/table-of-contents)
@@ -143,7 +143,12 @@ AZ-204 consists of five basic modules such that
     - Perform operations on data and Cosmos DB containers
     - Set the appropriate consistency level for operations
     - Manage change feed notifications
-    - [CosmosDB consistency levels](https://drive.google.com/file/d/1bmCedOjDOXpXOiW5fXQhKGFphdOyHBHn/view?usp=sharing)
+    - [NoSQL database differences](https://drive.google.com/file/d/1IqId3TBDe7gN3-aQZU32FXJICEs8Rbwh/view?usp=sharing)
+    - [Cosmos DB partition key](https://drive.google.com/file/d/1UhB_Fs4MW_gpjYsZUhJaQs7ozwE9HFl3/view?usp=sharing)
+    - [Cosmos DB consistency levels](https://drive.google.com/file/d/1bmCedOjDOXpXOiW5fXQhKGFphdOyHBHn/view?usp=sharing)
+    - [Cosmos DB API use cases](https://drive.google.com/file/d/1nck5kb08YtcLw49rcXY98c8xGMv7LySd/view?usp=sharing)
+    - [Cosmos DB Server-side concepts](https://drive.google.com/file/d/1kmKm83BW1Z1opXwGL9lme6CBRe0lowRg/view?usp=sharing)
+    - [Cosmos DB Throughput](https://drive.google.com/file/d/1dzr5Q5Fx4FoJukBdOYw6uZjhOX0aWu-A/view?usp=sharing)
     - Pluralsight
       course: [Microsoft Azure Developer: Develop Solutions with Cosmos DB Storage](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-solutions-cosmos-db-storage/table-of-contents)
 
@@ -157,7 +162,8 @@ AZ-204 consists of five basic modules such that
       course: [Microsoft Azure Developer: Develop Solutions with Blob Storage](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-solutions-blob-storage/table-of-contents)
 
 - **Quiz**
-    - [Develop for Azure Storage Quiz]()
+    - [Develop for Azure Blob Storage Quiz](https://quizlet.com/_c0ktgh?x=1jqt&i=2n5czk)
+    - [Develop for Azure CosmosDB Quiz](https://quizlet.com/_c0qp02?x=1qqt&i=2n5czk)
 
 - **Exam Alert**
     - [Exam Alert: Develop for Azure Storage](https://app.pluralsight.com/library/courses/exam-alert-develop-azure-storage/table-of-contents)
