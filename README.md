@@ -96,6 +96,9 @@ AZ-204 consists of five basic modules such that
     - [RBAC slides](https://drive.google.com/file/d/1G_0uSgpZpOZI1LQlZyxkZg8BzuzdXj6Q/view?usp=sharing)
     - [SAS token example](https://drive.google.com/file/d/14LXsFtzHo8s6WsiCTqVXsGZ3GSu5n_yV/view?usp=sharing)
     - [Stored access policy example](https://drive.google.com/file/d/1v2mPJw0nq9A_DzW3y7WnveOZouYcfZge/view?usp=sharing)
+    - [RFC: OAuth 2.0 Authorization Framework](https://www.rfc-editor.org/rfc/rfc6749)
+    - [RFC: Proof key of code exchange (PKCE)](https://www.rfc-editor.org/rfc/rfc7636.html)
+    - [OAuth 2.0 Flows Diagrams](https://darutk.medium.com/diagrams-and-movies-of-all-the-oauth-2-0-flows-194f3c3ade85)
     - Pluralsight
       course: [Microsoft Azure Developer: Implement User Authentication and Authorization](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-user-authentication-authorization/table-of-contents)
 
@@ -108,7 +111,7 @@ AZ-204 consists of five basic modules such that
       course: [Microsoft Azure Developer: Implement Secure Cloud Solutions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-secure-cloud-solutions/table-of-contents)
 
 - **Quiz**
-    - [Implement Azure Security Quiz]()
+    - [Implement User Authentication and Authorization Quiz](https://quizlet.com/_c0vn6c?x=1qqt&i=2n5czk)
 
 - **Exam Alert**
     - [Exam Alert: Implement Azure Security](https://app.pluralsight.com/library/courses/exam-alert-implement-azure-security/table-of-contents)
