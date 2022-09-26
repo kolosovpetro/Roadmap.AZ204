@@ -95,6 +95,7 @@ AZ-204 consists of five basic modules such that
     - [RBAC Documentation](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview)
     - [RBAC slides](https://drive.google.com/file/d/1G_0uSgpZpOZI1LQlZyxkZg8BzuzdXj6Q/view?usp=sharing)
     - [SAS token example](https://drive.google.com/file/d/14LXsFtzHo8s6WsiCTqVXsGZ3GSu5n_yV/view?usp=sharing)
+    - [SAS best practices](https://drive.google.com/file/d/1tDB1L_pTpn8Ce7gS4xsGQOrceg0sM62Y/view?usp=sharing)
     - [Stored access policy example](https://drive.google.com/file/d/1v2mPJw0nq9A_DzW3y7WnveOZouYcfZge/view?usp=sharing)
     - [RFC: OAuth 2.0 Authorization Framework](https://www.rfc-editor.org/rfc/rfc6749)
     - [RFC: Proof key of code exchange (PKCE)](https://www.rfc-editor.org/rfc/rfc7636.html)
@@ -107,6 +108,11 @@ AZ-204 consists of five basic modules such that
     - Develop code that uses keys, secrets, and certificates stored in Azure Key Vault
     - Implement solutions that interact with Microsoft Graph
     - Implement Managed Identities for Azure resources
+    - [KeyVault create CLI and PowerShell](https://drive.google.com/file/d/1S7ll9-xg6M7Vz4srZYvtA6HQDYwXMD1p/view?usp=sharing)
+    - [KeyVault references use cases](https://drive.google.com/file/d/16zE4LFvmzpsA0BQ-iXJQSMtuqXHUT_uL/view?usp=sharing)
+    - [KeyVault references syntax](https://drive.google.com/file/d/1AxhpHJMGxCjLz_hxMEDlpToxSHREjsjg/view?usp=sharing)
+    - [KeyVault soft delete](https://drive.google.com/file/d/1CB8V9aRtJSsSOHpsw9zceA9KEIEXDhjr/view?usp=sharing)
+    - [KeyVault enable soft delete and purge protection via PowerShell](https://drive.google.com/file/d/1411eHCA5Qsx2P7ppxTmmPh4KcsFj43xy/view?usp=sharing)
     - Pluralsight
       course: [Microsoft Azure Developer: Implement Secure Cloud Solutions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-secure-cloud-solutions/table-of-contents)
 
@@ -122,20 +128,44 @@ AZ-204 consists of five basic modules such that
     - Create an API Management instance
     - Configure authentication for APIs
     - Define policies for APIs
+    - [APIM access restrictions](https://drive.google.com/file/d/10urhZlhjKEUwt6sUt6f7_DvoIdsni_yx/view?usp=sharing)
+    - [APIM caching](https://drive.google.com/file/d/1mV__RiAsplzYzTGuWnvFqeGbegy47gzQ/view?usp=sharing)
+    - [APIM policy example](https://drive.google.com/file/d/1z63z5dMczTA6uGQGtcUTOEAZ4UQwZnlM/view?usp=sharing)
     - Pluralsight
       course: [Microsoft Azure Developer: Implement API Management](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-api-management/table-of-contents)
 
 - **Develop Event-Based Solutions**
     - [Implement solutions that use Azure Event Grid](https://github.com/kolosovpetro/EventGridDemo.AZ204)
+    - [Event grid provider registration](https://drive.google.com/file/d/1RMasVMHw-Jqpb7QQ4_zeYevYGJX8AZ1g/view?usp=sharing)
+    - [Event grid terminology](https://drive.google.com/file/d/1lKrNdgdeKy1G5nYXJVqEjh4kpn0i_zbL/view?usp=sharing)
     - Implement solutions that use Azure Event Hub
+    - [Event hub components](https://drive.google.com/file/d/1ROqLEc6nhFH05qZHwNySE9IDmv0_WiKq/view?usp=sharing)
+    - [Event hub create CLI](https://drive.google.com/file/d/1g6gMSKOmXmzVTz-sK2Fxwaz-b-Yx-M2-/view?usp=sharing)
+    - [Event hub send events](https://drive.google.com/file/d/1YtYf6BCuYXURLaDEw4kslHfh4eHTzUqz/view?usp=sharing)
+    - [Event hub partitions](https://drive.google.com/file/d/1oBlf2RiZMS7LPwc116la0vaHaHtV9stw/view?usp=sharing)
+    - [Event hub read events](https://drive.google.com/file/d/1jgBIF1aoBfQVq17ZSZMwmXC8Nesf8kPp/view?usp=sharing)
+    - [Event hub summary](https://drive.google.com/file/d/1_CP6z3XqILrM5x9dlYl8qJmhsf_KsBHX/view?usp=sharing)
     - Pluralsight
       course: [Microsoft Azure Developer: Develop Event-based Solutions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-event-based-solutions/table-of-contents)
 
 - **Develop Message-Based Solutions**
     - [Implement solutions that use Azure Service Bus](https://github.com/kolosovpetro/ServiceBusTopics.AZ204)
     - [Implement solutions that use Azure Queue Storage Queues](https://github.com/kolosovpetro/StorageQueue.AZ204)
+    - [Queue storage architecture](https://drive.google.com/file/d/1HRew1KVT7r9LNXWX6skR5NKEno9G847C/view?usp=sharing)
+    - [Queue storage interaction using CLI](https://drive.google.com/file/d/1GKErhpy5hXojBCt7ovClPsWApa4Y4Nu8/view?usp=sharing)
+    - [Queue storage use cases](https://drive.google.com/file/d/1o1_SrvxOTzx3f8b2SkZIcoD2nK8iqrq_/view?usp=sharing)
+    - [Service bus architecture](https://drive.google.com/file/d/1jd8JldlkssbO4SmP1Pr1tvhz8dkkxNFz/view?usp=sharing)
+    - [Service bus interaction using CLI](https://drive.google.com/file/d/1SFOf9ZrGs7V8hl2Bd5nod6IGnySytgT4/view?usp=sharing)
+    - [Service bus use cases](https://drive.google.com/file/d/151aPKhACGEt1ZCnsu75u0BK--ku0dsFj/view?usp=sharing)
     - Pluralsight
       course: [Microsoft Azure Developer: Develop Message-based Solutions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-message-based-solutions/table-of-contents)
+- **FAQ**
+    - [Event vs Message](https://drive.google.com/file/d/1dN4Shk4730lH3ozyTD2rZIm-IaSyKEzc/view?usp=sharing)
+    - [Select Event based solution](https://drive.google.com/file/d/1-RftB3huRtfs94SCYkgCutvG_nV-6ZoM/view?usp=sharing)
+    - [Notification hubs features](https://drive.google.com/file/d/1oNwjXGtXV47wfIBvdLaPOfl1rHl2wPW_/view?usp=sharing)
+    - [Notification hubs and namespaces](https://drive.google.com/file/d/1HiWFV5J-qmrnUfYm0mtDTceLb16Xz3Hv/view?usp=sharing)
+    - [Notification hubs send notification](https://drive.google.com/file/d/1HpSqZaJAQ5n31lXK0Z3blqsIpKbEKzsW/view?usp=sharing)
+    - [Notification hubs register app and send pushes](https://drive.google.com/file/d/1RmSy5rz1F6dFDx5iT11H5pMZThDmSxEP/view?usp=sharing)
 
 - **Quiz**
     - [Connect to and Consume Azure Services and Third-party Services Quiz]()
