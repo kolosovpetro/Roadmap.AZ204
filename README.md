@@ -117,7 +117,7 @@ AZ-204 consists of five basic modules such that
       course: [Microsoft Azure Developer: Implement Secure Cloud Solutions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-secure-cloud-solutions/table-of-contents)
 
 - **Quiz**
-    - [Implement User Authentication and Authorization Quiz](https://quizlet.com/_c0vn6c?x=1qqt&i=2n5czk)
+    - [Implement Azure Security Quiz](https://quizlet.com/_c13weq?x=1jqt&i=2n5czk)
 
 - **Exam Alert**
     - [Exam Alert: Implement Azure Security](https://app.pluralsight.com/library/courses/exam-alert-implement-azure-security/table-of-contents)
@@ -168,7 +168,7 @@ AZ-204 consists of five basic modules such that
     - [Notification hubs register app and send pushes](https://drive.google.com/file/d/1RmSy5rz1F6dFDx5iT11H5pMZThDmSxEP/view?usp=sharing)
 
 - **Quiz**
-    - [Connect to and Consume Azure Services and Third-party Services Quiz]()
+    - [Connect to and Consume Azure Services and Third-party Services Quiz](https://quizlet.com/_c13tmw?x=1qqt&i=2n5czk)
 
 - **Exam Alert**
     - [Exam Alert: Connect to and Consume Azure Services and Third-Party Services](https://app.pluralsight.com/library/courses/exam-alert-connect-consume-azure-services-third-party-services/table-of-contents)
