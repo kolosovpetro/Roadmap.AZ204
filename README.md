@@ -241,7 +241,7 @@ AZ-204 consists of five basic modules such that
       course: [Microsoft Azure Developer: Instrument Solutions for Monitoring and Logging](https://app.pluralsight.com/library/courses/microsoft-azure-developer-instrument-solutions-monitoring-logging/table-of-contents)
 
 - **Quiz**
-    - [Monitor, Troubleshoot, and Optimize Azure Solutions Quiz]()
+    - [Monitor, Troubleshoot, and Optimize Azure Solutions Quiz](https://quizlet.com/_c17ztb?x=1jqt&i=2n5czk)
 
 - **Exam Alert**
     - [Exam Alert: Monitor, Troubleshoot, and Optimize Azure Solutions](https://app.pluralsight.com/library/courses/exam-alert-monitor-troubleshoot-optimize-azure-solutions/table-of-contents)
