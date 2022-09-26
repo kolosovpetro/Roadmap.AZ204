@@ -56,7 +56,9 @@ AZ-204 consists of five basic modules such that
     - [Deploy code to a web app](./DevelopAzureComputeSoultions/03_deploy_code_to_app_service.md)
     - Configure web app settings
     - Implement autoscaling rules, including scheduled autoscaling, and scaling by operational or system metrics
-    - [Azure App Service Plan Tiers](https://medium.com/@zaab_it/azure-app-service-plan-tiers-f07d5e22297a)
+    - [App service plan tiers (Medium post)](https://medium.com/@zaab_it/azure-app-service-plan-tiers-f07d5e22297a)
+    - [App service plan features](https://drive.google.com/file/d/1xOv2HuAv8zbDCymZVCvBAHLc-MWkId_c/view?usp=sharing)
+    - [App service plan tiers usage](./DevelopAzureComputeSoultions/12_app_service_plan_ties_usage.md)
     - Pluralsight
       course: [Microsoft Azure Developer: Create Azure App Service Web Apps](https://app.pluralsight.com/library/courses/azure-developer-create-azure-app-service-web-apps/table-of-contents)
 
