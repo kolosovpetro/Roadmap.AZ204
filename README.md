@@ -27,6 +27,15 @@ So, study flow is following
 - Practice: `Watch cource on pluralsight -> Complete demos of the cource -> Upload results to github`
 - Practice: `Complete lab on Microsoft Labs resource`
 
+Also, keep especial attention to the following topics:
+
+- App service plan features
+- Storage accounts replication strategies
+- Choosing proper solution between event-based and message-based
+- `AzCopy` command
+- Cosmos DB consistency levels
+- KeyVault references syntax
+
 As a short conclusion, I want to mention that I am also relatively newbie on Azure,
 so this study approach is as well an experiment for me, we'll see how it works :)
 
