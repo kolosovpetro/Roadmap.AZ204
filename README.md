@@ -212,6 +212,15 @@ AZ-204 consists of five basic modules such that
     - Configure cache and expiration policies for Azure Redis cache
     - Implement secure and optimized application cache patterns including data sizing, connections, encryption, and
       expiration
+    - [CDN content distribution](https://drive.google.com/file/d/1MP-muO-fb8vQAe9aybHPBb4zQ6yYKUkf/view?usp=sharing)
+    - [CDN request response life cycle](https://drive.google.com/file/d/1fUnHwVpQu9LPXUMIc-JN4jWg14CMwbU3/view?usp=sharing)
+    - [When to use cache](https://drive.google.com/file/d/1zPnuBkYQj0LXMhglzJer-dyKDJfwX9pP/view?usp=sharing)
+    - [Cache best practices](https://drive.google.com/file/d/1Isk1NHdKCn2A7pgDgEKxNPM5ebtAbkRN/view?usp=sharing)
+    - [Cache aside pattern](https://drive.google.com/file/d/1U__hIdaqv5PyXUz22GliOoNvcVnU93nE/view?usp=sharing)
+    - [Cache content pattern](https://drive.google.com/file/d/1I9QkMB6HA0P_CrhZbV4iNCii43S7usHa/view?usp=sharing)
+    - [Cache user session pattern](https://drive.google.com/file/d/1BeOsv5jP-tVObxvYCDE6yAiF9RxqknXg/view?usp=sharing)
+    - [Azure redis cache use cases](https://drive.google.com/file/d/1xBt6sv6EPvwnyk7K2XLBf_E1m1UMZ-WN/view?usp=sharing)
+    - [Cache configuration best practices](https://drive.google.com/file/d/1O1rhj68a5eBm_82eY2WWmacYsYbrGJuZ/view?usp=sharing)
     - Pluralsight
       course: [Microsoft Azure Developer: Integrate Caching and Content Delivery](https://app.pluralsight.com/library/courses/microsoft-azure-developer-integrate-caching-content-delivery/table-of-contents)
 
@@ -219,6 +228,15 @@ AZ-204 consists of five basic modules such that
     - Configure an app or service to use Application Insights
     - Analyze and troubleshoot solutions by using Azure Monitor
     - Implement Application Insights web tests and alerts
+    - [Configure web app logging](https://drive.google.com/file/d/1Am166myZK5FcltT4LCWkrUWVYXXIIruD/view?usp=sharing)
+    - [Dealing with transient faults](https://drive.google.com/file/d/1KdkHNft_KZbK2sZUuhqvaJagHD3aWIxE/view?usp=sharing)
+    - [Azure monitor structure](https://drive.google.com/file/d/1CTR122_HrQa6gDiir09G4irdIX6ma0OO/view?usp=sharing)
+    - [Azure monitor capabilities](https://drive.google.com/file/d/1VLSPH7ZwNw7VUwyV6rAQxHxvXf6kWSk7/view?usp=sharing)
+    - [Application insights capabilities](https://drive.google.com/file/d/1OAETkG9TMb1R2Txwb9kuXU974v2pJAJT/view?usp=sharing)
+    - [Application insights action groups](https://drive.google.com/file/d/1D3VMF_VonW-Ph8DbynKJ5bzP07VxlhC_/view?usp=sharing)
+    - [Transient fault challenges](https://drive.google.com/file/d/1hQbqY7sJYabhc7syfdUrs-yWaEqQfKP6/view?usp=sharing)
+    - [Retry policy](https://drive.google.com/file/d/1xl8UlPMYHrLqHLK1uZB5rMlqrlKHUK7l/view?usp=sharing)
+    - [Circuit breaker policy](https://drive.google.com/file/d/1t0DvYnsQO0v69NMhJlfINJB78EWIT6Hc/view?usp=sharing)
     - Pluralsight
       course: [Microsoft Azure Developer: Instrument Solutions for Monitoring and Logging](https://app.pluralsight.com/library/courses/microsoft-azure-developer-instrument-solutions-monitoring-logging/table-of-contents)
 
