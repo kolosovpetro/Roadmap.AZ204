@@ -30,10 +30,10 @@ So, study flow is following
 Also, keep especial attention to the following topics:
 
 - [App service plan features](https://quizlet.com/_c1fn2x?x=1qqt&i=2n5czk)
-- Storage accounts replication strategies
+- [Storage replication strategies](https://quizlet.com/_c1fxsz?x=1jqt&i=2n5czk)
 - Choosing proper solution between event-based and message-based
 - `AzCopy` command
-- Cosmos DB consistency levels
+- [Cosmos DB consistency levels](https://quizlet.com/_c1fuf3?x=1jqt&i=2n5czk)
 - KeyVault references syntax
 
 As a short conclusion, I want to mention that I am also relatively newbie on Azure,
