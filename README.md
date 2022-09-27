@@ -29,7 +29,7 @@ So, study flow is following
 
 Also, keep especial attention to the following topics:
 
-- App service plan features
+- [App service plan features](https://quizlet.com/_c1fn2x?x=1qqt&i=2n5czk)
 - Storage accounts replication strategies
 - Choosing proper solution between event-based and message-based
 - `AzCopy` command
