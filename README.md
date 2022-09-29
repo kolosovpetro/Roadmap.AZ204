@@ -37,6 +37,7 @@ Also, keep especial attention to the following topics:
 - [Cosmos DB consistency levels](https://quizlet.com/_c1fuf3?x=1jqt&i=2n5czk)
 - KeyVault references syntax
 - [Cache key evictions](https://quizlet.com/_c20755?x=1qqt&i=2n5czk)
+- [Web test types](https://quizlet.com/_c230q0?x=1jqt&i=2n5czk)
 
 As a short conclusion, I want to mention that I am also relatively newbie on Azure,
 so this study approach is as well an experiment for me, we'll see how it works :)
@@ -70,6 +71,7 @@ AZ-204 consists of five basic modules such that
     - [App service plan tiers (Medium post)](https://medium.com/@zaab_it/azure-app-service-plan-tiers-f07d5e22297a)
     - [App service plan features](https://drive.google.com/file/d/1xOv2HuAv8zbDCymZVCvBAHLc-MWkId_c/view?usp=sharing)
     - [App service plan tiers usage](./DevelopAzureComputeSoultions/12_app_service_plan_ties_usage.md)
+    - [App service docker environment constants](https://drive.google.com/file/d/15xRK_ea3s-tVwcnQHziyoT59KISt1Ct1/view?usp=sharing)
     - Pluralsight
       course: [Microsoft Azure Developer: Create Azure App Service Web Apps](https://app.pluralsight.com/library/courses/azure-developer-create-azure-app-service-web-apps/table-of-contents)
 
