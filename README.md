@@ -30,11 +30,13 @@ So, study flow is following
 Also, keep especial attention to the following topics:
 
 - [App service plan features](https://quizlet.com/_c1fn2x?x=1qqt&i=2n5czk)
+- [App service plan limits (MSDN)](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#app-service-limits)
 - [Storage replication strategies](https://quizlet.com/_c1fxsz?x=1jqt&i=2n5czk)
 - Choosing proper solution between event-based and message-based
 - `AzCopy` command
 - [Cosmos DB consistency levels](https://quizlet.com/_c1fuf3?x=1jqt&i=2n5czk)
 - KeyVault references syntax
+- [Cache key evictions](https://quizlet.com/_c20755?x=1qqt&i=2n5czk)
 
 As a short conclusion, I want to mention that I am also relatively newbie on Azure,
 so this study approach is as well an experiment for me, we'll see how it works :)
