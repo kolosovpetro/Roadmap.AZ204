@@ -64,7 +64,8 @@ AZ-204 consists of five basic modules such that
       course: [Microsoft Azure Developer: Implement IaaS Solutions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-iaas-solutions/table-of-contents)
 
 - **Create Azure App Service Web Apps**
-    - [Create an Azure App Service Web App](./DevelopAzureComputeSoultions/02_create_app_service_cli.md)
+    - [Create an Azure App Service CLI](./DevelopAzureComputeSoultions/02_create_app_service_cli.md)
+    - [Create an Azure App Service PowerShell](./DevelopAzureComputeSoultions/13_create_app_service_powershell.md)
     - Enable diagnostic logging
     - [Deploy code to a web app](./DevelopAzureComputeSoultions/03_deploy_code_to_app_service.md)
     - Configure web app settings
