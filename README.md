@@ -10,20 +10,21 @@ Nothing new, just a study that includes two basic components: **theory and pract
 Theory is mainly studied using the resources:
 
 - [Pluralsight AZ-204 Preparation](https://app.pluralsight.com/paths/certificate/developing-solutions-for-microsoft-azure-az-204)
+- [Udemy AZ-204 Preparation](https://www.udemy.com/course/az-300-microsoft-azure-architect-technologies-lab-practice/)
 - [Quizlet](https://quizlet.com/)
 
-Both of these resources require paid subscription.
-Pluralsight is used in order to get information and then perform practice based on demo sections.
-Quizlet is used to grind-core new definitions.
+All of these resources require paid subscription.
+Pluralsight as well as Udemy are used in order to get information and then perform practice based on demo sections.
+Quizlet is used to grind-core new definitions or key-information.
 
 Practice could be achieved using both
 
 - [Pluralsight AZ-204 Demos](https://app.pluralsight.com/paths/certificate/developing-solutions-for-microsoft-azure-az-204)
 - [Microsoft Labs](https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/)
 
-So, study flow is following
+So, study flow is the following
 
-- Theory: `Watch course on pluralsight -> Note definitions -> Create quizlet quiz -> Grind defintions`
+- Theory: `Watch course on Pluralsight or Udemy -> Note definitions -> Create quizlet quiz -> Grind defintions`
 - Practice: `Watch cource on pluralsight -> Complete demos of the cource -> Upload results to github`
 - Practice: `Complete lab on Microsoft Labs resource`
 
@@ -36,7 +37,7 @@ Also, keep especial attention to the following topics:
 - `AzCopy` command
 - [Cosmos DB consistency levels](https://quizlet.com/_c1fuf3?x=1jqt&i=2n5czk)
 - KeyVault references syntax
-- [Cache key evictions](https://quizlet.com/_c20755?x=1qqt&i=2n5czk)
+- [Cache key eviction](https://quizlet.com/_c20755?x=1qqt&i=2n5czk)
 - [Web test types](https://quizlet.com/_c230q0?x=1jqt&i=2n5czk)
 - [APIM management policies](https://github.com/kolosovpetro/MonitoringAndLogging.AZ204/tree/master/api-management-policies)
 
