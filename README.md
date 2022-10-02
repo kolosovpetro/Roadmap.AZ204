@@ -38,6 +38,7 @@ Also, keep especial attention to the following topics:
 - KeyVault references syntax
 - [Cache key evictions](https://quizlet.com/_c20755?x=1qqt&i=2n5czk)
 - [Web test types](https://quizlet.com/_c230q0?x=1jqt&i=2n5czk)
+- [APIM management policies](https://github.com/kolosovpetro/MonitoringAndLogging.AZ204/tree/master/api-management-policies)
 
 As a short conclusion, I want to mention that I am also relatively newbie on Azure,
 so this study approach is as well an experiment for me, we'll see how it works :)
@@ -146,6 +147,7 @@ AZ-204 consists of five basic modules such that
     - [APIM access restrictions](https://drive.google.com/file/d/10urhZlhjKEUwt6sUt6f7_DvoIdsni_yx/view?usp=sharing)
     - [APIM caching](https://drive.google.com/file/d/1mV__RiAsplzYzTGuWnvFqeGbegy47gzQ/view?usp=sharing)
     - [APIM policy example](https://drive.google.com/file/d/1z63z5dMczTA6uGQGtcUTOEAZ4UQwZnlM/view?usp=sharing)
+    - [APIM policies diagram](./DevelopApiManagement/01_apim_policies.pdf)
     - Pluralsight
       course: [Microsoft Azure Developer: Implement API Management](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-api-management/table-of-contents)
 
@@ -252,6 +254,7 @@ AZ-204 consists of five basic modules such that
     - [Transient fault challenges](https://drive.google.com/file/d/1hQbqY7sJYabhc7syfdUrs-yWaEqQfKP6/view?usp=sharing)
     - [Retry policy](https://drive.google.com/file/d/1xl8UlPMYHrLqHLK1uZB5rMlqrlKHUK7l/view?usp=sharing)
     - [Circuit breaker policy](https://drive.google.com/file/d/1t0DvYnsQO0v69NMhJlfINJB78EWIT6Hc/view?usp=sharing)
+    - [Azure resource abbreviations](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations)
     - Pluralsight
       course: [Microsoft Azure Developer: Instrument Solutions for Monitoring and Logging](https://app.pluralsight.com/library/courses/microsoft-azure-developer-instrument-solutions-monitoring-logging/table-of-contents)
 
