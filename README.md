@@ -67,7 +67,8 @@ AZ-204 consists of five basic modules such that
     - [Create an Azure App Service CLI](./DevelopAzureComputeSoultions/02_create_app_service_cli.md)
     - [Create an Azure App Service PowerShell](./DevelopAzureComputeSoultions/13_create_app_service_powershell.md)
     - Enable diagnostic logging
-    - [Deploy code to a web app](./DevelopAzureComputeSoultions/03_deploy_code_to_app_service.md)
+    - [Deploy code to a App Service CLI](./DevelopAzureComputeSoultions/03_deploy_code_to_app_service.md)
+    - [Deploy App Service ARM template](https://azure.microsoft.com/en-us/resources/templates/webapp-basic-linux/)
     - Configure web app settings
     - Implement autoscaling rules, including scheduled autoscaling, and scaling by operational or system metrics
     - [App service plan tiers (Medium post)](https://medium.com/@zaab_it/azure-app-service-plan-tiers-f07d5e22297a)
