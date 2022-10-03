@@ -128,7 +128,8 @@ AZ-204 consists of five basic modules such that
     - Implement solutions that interact with Microsoft Graph
     - Implement Managed Identities for Azure resources
     - KeyVault create using CLI
-    - [KeyVault create using PowerShell](https://drive.google.com/file/d/1S7ll9-xg6M7Vz4srZYvtA6HQDYwXMD1p/view?usp=sharing)
+    - [KeyVault create using PowerShell](./ImplementSecureSolutions/01_create_keyvault_powershell.md)
+    - [KeyVault create using CLI](./ImplementSecureSolutions/02_create_keyvault_cli.md)
     - [KeyVault references use cases](https://drive.google.com/file/d/16zE4LFvmzpsA0BQ-iXJQSMtuqXHUT_uL/view?usp=sharing)
     - [KeyVault references syntax](https://drive.google.com/file/d/1AxhpHJMGxCjLz_hxMEDlpToxSHREjsjg/view?usp=sharing)
     - [KeyVault soft delete](https://drive.google.com/file/d/1CB8V9aRtJSsSOHpsw9zceA9KEIEXDhjr/view?usp=sharing)
@@ -208,8 +209,7 @@ AZ-204 consists of five basic modules such that
     - [Cosmos DB API use cases](https://drive.google.com/file/d/1nck5kb08YtcLw49rcXY98c8xGMv7LySd/view?usp=sharing)
     - [Cosmos DB Server-side concepts](https://drive.google.com/file/d/1kmKm83BW1Z1opXwGL9lme6CBRe0lowRg/view?usp=sharing)
     - [Cosmos DB Throughput](https://drive.google.com/file/d/1dzr5Q5Fx4FoJukBdOYw6uZjhOX0aWu-A/view?usp=sharing)
-    - Create Cosmos DB CLI
-    - Create Cosmos DB Powershell
+    - [Cosmos DB create CLI](./DevelopForAzureStorage/04_create_cosmos_db_cli.md)
     - Pluralsight
       course: [Microsoft Azure Developer: Develop Solutions with Cosmos DB Storage](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-solutions-cosmos-db-storage/table-of-contents)
 
@@ -219,8 +219,8 @@ AZ-204 consists of five basic modules such that
     - Perform operations on data by using the appropriate SDK
     - Implement storage policies, and data archiving and retention
     - [Blob Storage replication strategies](https://drive.google.com/file/d/1RIrGUJw7A0_f2ldJWpF2CQX6gQ4aHm0y/view)
-    - Create blob storage CLI
-    - Create blob storage Powershell
+    - [Create blob storage CLI](./DevelopForAzureStorage/02_create_blob_storage_using_cli.md)
+    - [Create blob storage Powershell](./DevelopForAzureStorage/03_create_blob_storage_using_powershell.md)
     - Pluralsight
       course: [Microsoft Azure Developer: Develop Solutions with Blob Storage](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-solutions-blob-storage/table-of-contents)
 
