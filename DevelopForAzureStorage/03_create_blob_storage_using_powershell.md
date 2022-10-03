@@ -9,4 +9,4 @@
 - Create storage container
     - `New-AzStorageContainer -Name "pkolosovcontainer" -Context $ctx`
 - Delete resource group
-    - `Remove-AzResourceGroup -Name "storage-training-rg"`
+  - `Remove-AzResourceGroup -Name "storage-training-rg"`

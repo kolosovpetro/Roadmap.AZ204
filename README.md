@@ -162,7 +162,8 @@ AZ-204 consists of five basic modules such that
     - [Event grid terminology](https://drive.google.com/file/d/1lKrNdgdeKy1G5nYXJVqEjh4kpn0i_zbL/view?usp=sharing)
     - Implement solutions that use Azure Event Hub
     - [Event hub components](https://drive.google.com/file/d/1ROqLEc6nhFH05qZHwNySE9IDmv0_WiKq/view?usp=sharing)
-    - [Event hub create CLI](https://drive.google.com/file/d/1g6gMSKOmXmzVTz-sK2Fxwaz-b-Yx-M2-/view?usp=sharing)
+    - [Event hub create CLI](./EventBasedSolutions/01_create_event_hub_cli.md)
+    - [Event hub create Powershell](./EventBasedSolutions/02_create_event_hub_powershell.md)
     - [Event hub send events](https://drive.google.com/file/d/1YtYf6BCuYXURLaDEw4kslHfh4eHTzUqz/view?usp=sharing)
     - [Event hub partitions](https://drive.google.com/file/d/1oBlf2RiZMS7LPwc116la0vaHaHtV9stw/view?usp=sharing)
     - [Event hub read events](https://drive.google.com/file/d/1jgBIF1aoBfQVq17ZSZMwmXC8Nesf8kPp/view?usp=sharing)
