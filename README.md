@@ -163,6 +163,7 @@ AZ-204 consists of five basic modules such that
     - [Implement solutions that use Azure Event Grid](https://github.com/kolosovpetro/EventGridDemo.AZ204)
     - [Event grid provider registration](https://drive.google.com/file/d/1RMasVMHw-Jqpb7QQ4_zeYevYGJX8AZ1g/view?usp=sharing)
     - [Event grid terminology](https://drive.google.com/file/d/1lKrNdgdeKy1G5nYXJVqEjh4kpn0i_zbL/view?usp=sharing)
+    - [Event grid create CLI and send event via Postman](./EventBasedSolutions/03_create_event_grid_cli.md)
     - Implement solutions that use Azure Event Hub
     - [Event hub components](https://drive.google.com/file/d/1ROqLEc6nhFH05qZHwNySE9IDmv0_WiKq/view?usp=sharing)
     - [Event hub create CLI](./EventBasedSolutions/01_create_event_hub_cli.md)
