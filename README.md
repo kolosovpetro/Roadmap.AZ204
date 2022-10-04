@@ -181,6 +181,7 @@ AZ-204 consists of five basic modules such that
     - [Queue storage interaction using CLI](https://drive.google.com/file/d/1GKErhpy5hXojBCt7ovClPsWApa4Y4Nu8/view?usp=sharing)
     - [Queue storage use cases](https://drive.google.com/file/d/1o1_SrvxOTzx3f8b2SkZIcoD2nK8iqrq_/view?usp=sharing)
     - [Queue storage create CLI](./MessageBasedSolutions/01_create_queue_storage_cli.md)
+    - [Queue storage create Powershell](./MessageBasedSolutions/02_queue_storage_create_powershell.md)
     - [Service bus architecture](https://drive.google.com/file/d/1jd8JldlkssbO4SmP1Pr1tvhz8dkkxNFz/view?usp=sharing)
     - [Service bus interaction using CLI](https://drive.google.com/file/d/1SFOf9ZrGs7V8hl2Bd5nod6IGnySytgT4/view?usp=sharing)
     - [Service bus use cases](https://drive.google.com/file/d/151aPKhACGEt1ZCnsu75u0BK--ku0dsFj/view?usp=sharing)
