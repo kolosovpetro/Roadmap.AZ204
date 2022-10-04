@@ -77,6 +77,7 @@ AZ-204 consists of five basic modules such that
     - [App service plan tiers usage](./DevelopAzureComputeSoultions/12_app_service_plan_ties_usage.md)
     - [App service docker environment constants](https://drive.google.com/file/d/15xRK_ea3s-tVwcnQHziyoT59KISt1Ct1/view?usp=sharing)
     - [App service add custom domain](./DevelopAzureComputeSoultions/14_app_service_add_custom_domain.md)
+    - [App service configure SSL for custom domain]()
     - Pluralsight
       course: [Microsoft Azure Developer: Create Azure App Service Web Apps](https://app.pluralsight.com/library/courses/azure-developer-create-azure-app-service-web-apps/table-of-contents)
 
