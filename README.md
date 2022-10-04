@@ -119,6 +119,7 @@ AZ-204 consists of five basic modules such that
     - [RFC: OAuth 2.0 Authorization Framework](https://www.rfc-editor.org/rfc/rfc6749)
     - [RFC: Proof key of code exchange (PKCE)](https://www.rfc-editor.org/rfc/rfc7636.html)
     - [OAuth 2.0 Flows Diagrams](https://darutk.medium.com/diagrams-and-movies-of-all-the-oauth-2-0-flows-194f3c3ade85)
+    - [OAuth general flow](./ImplementSecureSolutions/03_oauth_flow.pdf)
     - Pluralsight
       course: [Microsoft Azure Developer: Implement User Authentication and Authorization](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-user-authentication-authorization/table-of-contents)
 
