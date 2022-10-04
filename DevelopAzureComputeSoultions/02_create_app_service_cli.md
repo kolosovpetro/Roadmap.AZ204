@@ -9,4 +9,4 @@
 - Check available app service runtimes:
     - `az webapp list-runtimes`
 - Create app service:
-    - `az webapp create --resource-group "rg-app-service" --name "apipkolosov" --plan "appserviceplan" --runtime '"DOTNETCORE|3.1"'`
+    - `az webapp create --resource-group "rg-app-service" --name "apipkolosov" --plan "appserviceplan" --runtime "dotnet:6"`
