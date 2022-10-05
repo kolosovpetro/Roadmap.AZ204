@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACRPractice.AZ204", "ACRPractice.AZ204\ACRPractice.AZ204.csproj", "{E23D7B38-6D66-4E22-9624-B367A4E8460C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "items", "items", "{079C0476-F06B-4EA1-BEE7-B9F3F4B39158}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+		Dockerfile = Dockerfile
+		.dockerignore = .dockerignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{4BA1AE4B-00EC-4173-BAD5-CBF70F3AB0A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{18F95225-3703-4D45-9F0D-65400FBEC651}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\run-build-and-test-dotnet.yml = .github\workflows\run-build-and-test-dotnet.yml
+		.github\workflows\push-and-deploy-container.yml = .github\workflows\push-and-deploy-container.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{99FA3C35-608F-427F-98C7-529C96DB2A8D}"
+	ProjectSection(SolutionItems) = preProject
+		img\01_acr_push_output.PNG = img\01_acr_push_output.PNG
+		img\02_azure_portal_acr_repository.PNG = img\02_azure_portal_acr_repository.PNG
+		img\03_aci_deploy_cli_output.PNG = img\03_aci_deploy_cli_output.PNG
+		img\04_aci_azure_portal.PNG = img\04_aci_azure_portal.PNG
+		img\05_app_in_browser.PNG = img\05_app_in_browser.PNG
+		img\06_docker_architecture.png = img\06_docker_architecture.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E23D7B38-6D66-4E22-9624-B367A4E8460C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23D7B38-6D66-4E22-9624-B367A4E8460C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23D7B38-6D66-4E22-9624-B367A4E8460C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23D7B38-6D66-4E22-9624-B367A4E8460C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18F95225-3703-4D45-9F0D-65400FBEC651} = {4BA1AE4B-00EC-4173-BAD5-CBF70F3AB0A5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+﻿name: Run Build and Test
+
+on:
+  push:
+    branches: [ develop ]
+  pull_request:
+    branches: [ develop ]
+  workflow_dispatch:
+
+jobs:
+  build-and-test-dotnet:
+    name: Run Build and Test .NET
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📝 Fetch Sources 📝
+        uses: actions/checkout@v2
+
+      - name: ⚙ Setup .NET 6.0 SDK ⚙
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x
+
+      - name: 🔄 Restore Nuget Packages 🔄
+        run: dotnet restore
+
+      - name: 🛠 Build .NET Project 🛠
+        run: |
+          dotnet build --no-restore /p:ContinuousIntegrationBuild=true --configuration Release

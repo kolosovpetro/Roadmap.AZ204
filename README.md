@@ -60,7 +60,8 @@ AZ-204 consists of five basic modules such that
         - [Deploy ARM template using CLI](./DevelopAzureComputeSoultions/09_deploy_arm_template_using_CLI.md)
         - [Deploy ARM template using Az Powershell](./DevelopAzureComputeSoultions/10_deploy_arm_template_using_powershell.md)
     - Configure container images for solutions
-    - [Publish an image to the Azure Container Registry](./DevelopAzureComputeSoultions/01_publish_image_to_acr.md)
+    - [Publish image to ACR CLI](./DevelopAzureComputeSoultions/01_publish_image_to_acr_cli.md)
+    - [Publish image to ACR Powershell](./DevelopAzureComputeSoultions/16_publish_image_to_acr_powershell.md)
     - [Run containers by using Azure Container Instance](./DevelopAzureComputeSoultions/05_run_containers_using_instances.md)
     - Pluralsight
       course: [Microsoft Azure Developer: Implement IaaS Solutions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-iaas-solutions/table-of-contents)
