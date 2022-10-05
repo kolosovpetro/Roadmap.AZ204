@@ -104,7 +104,43 @@ AZ-204 consists of five basic modules such that
 - **Exam Alert**
     - [Exam Alert: Develop Azure Compute Solutions](https://app.pluralsight.com/library/courses/exam-alert-develop-azure-compute-solutions/table-of-contents)
 
-### 2. Implement Azure Security (20-25%)
+### 2. Develop for Azure Storage (15-20%)
+
+- **Develop Solutions that use Cosmos DB Storage**
+    - Select the appropriate API and SDK for a solution
+    - Implement partitioning schemes and partition keys
+    - Perform operations on data and Cosmos DB containers
+    - Set the appropriate consistency level for operations
+    - Manage change feed notifications
+    - [NoSQL database differences](https://drive.google.com/file/d/1IqId3TBDe7gN3-aQZU32FXJICEs8Rbwh/view?usp=sharing)
+    - [Cosmos DB partition key](https://drive.google.com/file/d/1UhB_Fs4MW_gpjYsZUhJaQs7ozwE9HFl3/view?usp=sharing)
+    - [Cosmos DB consistency levels](https://drive.google.com/file/d/1bmCedOjDOXpXOiW5fXQhKGFphdOyHBHn/view?usp=sharing)
+    - [Cosmos DB API use cases](https://drive.google.com/file/d/1nck5kb08YtcLw49rcXY98c8xGMv7LySd/view?usp=sharing)
+    - [Cosmos DB Server-side concepts](https://drive.google.com/file/d/1kmKm83BW1Z1opXwGL9lme6CBRe0lowRg/view?usp=sharing)
+    - [Cosmos DB Throughput](https://drive.google.com/file/d/1dzr5Q5Fx4FoJukBdOYw6uZjhOX0aWu-A/view?usp=sharing)
+    - [Cosmos DB create CLI](./DevelopForAzureStorage/04_create_cosmos_db_cli.md)
+    - Pluralsight
+      course: [Microsoft Azure Developer: Develop Solutions with Cosmos DB Storage](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-solutions-cosmos-db-storage/table-of-contents)
+
+- **Develop solutions that use Blob storage**
+    - [Move items in Blob storage between storage accounts or containers](./DevelopForAzureStorage/01_move_items_between_blob_accounts.md)
+    - [Set and retrieve properties and metadata](https://github.com/kolosovpetro/AzureStorageSDKTraining.AZ204)
+    - Perform operations on data by using the appropriate SDK
+    - Implement storage policies, and data archiving and retention
+    - [Blob Storage replication strategies](https://drive.google.com/file/d/1RIrGUJw7A0_f2ldJWpF2CQX6gQ4aHm0y/view)
+    - [Create blob storage CLI](./DevelopForAzureStorage/02_create_blob_storage_using_cli.md)
+    - [Create blob storage Powershell](./DevelopForAzureStorage/03_create_blob_storage_using_powershell.md)
+    - Pluralsight
+      course: [Microsoft Azure Developer: Develop Solutions with Blob Storage](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-solutions-blob-storage/table-of-contents)
+
+- **Quiz**
+    - [Develop for Azure Blob Storage Quiz](https://smarturl.it/09_BLOB_STORAGE_QUIZ)
+    - [Develop for Azure CosmosDB Quiz](https://smarturl.it/10_COSMOSDB_QUIZ)
+
+- **Exam Alert**
+    - [Exam Alert: Develop for Azure Storage](https://app.pluralsight.com/library/courses/exam-alert-develop-azure-storage/table-of-contents)
+
+### 3. Implement Azure Security (20-25%)
 
 - **Implement User Authentication and Authorization**
     - Authenticate and authorize users by using the Microsoft Identity Platform
@@ -148,7 +184,48 @@ AZ-204 consists of five basic modules such that
 - **Exam Alert**
     - [Exam Alert: Implement Azure Security](https://app.pluralsight.com/library/courses/exam-alert-implement-azure-security/table-of-contents)
 
-### 3. Connect to and Consume Azure Services and Third-party Services (15-20%)
+### 4. Monitor, Troubleshoot, and Optimize Azure Solutions (15-20%)
+
+- **Integrate Caching and Content Delivery Within Solutions**
+    - Configure cache and expiration policies for Azure Redis cache
+    - Implement secure and optimized application cache patterns including data sizing, connections, encryption, and
+      expiration
+    - [CDN content distribution](https://drive.google.com/file/d/1MP-muO-fb8vQAe9aybHPBb4zQ6yYKUkf/view?usp=sharing)
+    - [CDN request response life cycle](https://drive.google.com/file/d/1fUnHwVpQu9LPXUMIc-JN4jWg14CMwbU3/view?usp=sharing)
+    - [When to use cache](https://drive.google.com/file/d/1zPnuBkYQj0LXMhglzJer-dyKDJfwX9pP/view?usp=sharing)
+    - [Cache best practices](https://drive.google.com/file/d/1Isk1NHdKCn2A7pgDgEKxNPM5ebtAbkRN/view?usp=sharing)
+    - [Cache aside pattern](https://drive.google.com/file/d/1U__hIdaqv5PyXUz22GliOoNvcVnU93nE/view?usp=sharing)
+    - [Cache content pattern](https://drive.google.com/file/d/1I9QkMB6HA0P_CrhZbV4iNCii43S7usHa/view?usp=sharing)
+    - [Cache user session pattern](https://drive.google.com/file/d/1BeOsv5jP-tVObxvYCDE6yAiF9RxqknXg/view?usp=sharing)
+    - [Azure redis cache use cases](https://drive.google.com/file/d/1xBt6sv6EPvwnyk7K2XLBf_E1m1UMZ-WN/view?usp=sharing)
+    - [Cache configuration best practices](https://drive.google.com/file/d/1O1rhj68a5eBm_82eY2WWmacYsYbrGJuZ/view?usp=sharing)
+    - Pluralsight
+      course: [Microsoft Azure Developer: Integrate Caching and Content Delivery](https://app.pluralsight.com/library/courses/microsoft-azure-developer-integrate-caching-content-delivery/table-of-contents)
+
+- **Instrument Solutions to Support Monitoring and Logging**
+    - Configure an app or service to use Application Insights
+    - Analyze and troubleshoot solutions by using Azure Monitor
+    - Implement Application Insights web tests and alerts
+    - [Configure web app logging](https://drive.google.com/file/d/1Am166myZK5FcltT4LCWkrUWVYXXIIruD/view?usp=sharing)
+    - [Dealing with transient faults](https://drive.google.com/file/d/1KdkHNft_KZbK2sZUuhqvaJagHD3aWIxE/view?usp=sharing)
+    - [Azure monitor structure](https://drive.google.com/file/d/1CTR122_HrQa6gDiir09G4irdIX6ma0OO/view?usp=sharing)
+    - [Azure monitor capabilities](https://drive.google.com/file/d/1VLSPH7ZwNw7VUwyV6rAQxHxvXf6kWSk7/view?usp=sharing)
+    - [Application insights capabilities](https://drive.google.com/file/d/1OAETkG9TMb1R2Txwb9kuXU974v2pJAJT/view?usp=sharing)
+    - [Application insights action groups](https://drive.google.com/file/d/1D3VMF_VonW-Ph8DbynKJ5bzP07VxlhC_/view?usp=sharing)
+    - [Transient fault challenges](https://drive.google.com/file/d/1hQbqY7sJYabhc7syfdUrs-yWaEqQfKP6/view?usp=sharing)
+    - [Retry policy](https://drive.google.com/file/d/1xl8UlPMYHrLqHLK1uZB5rMlqrlKHUK7l/view?usp=sharing)
+    - [Circuit breaker policy](https://drive.google.com/file/d/1t0DvYnsQO0v69NMhJlfINJB78EWIT6Hc/view?usp=sharing)
+    - [Azure resource abbreviations](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations)
+    - Pluralsight
+      course: [Microsoft Azure Developer: Instrument Solutions for Monitoring and Logging](https://app.pluralsight.com/library/courses/microsoft-azure-developer-instrument-solutions-monitoring-logging/table-of-contents)
+
+- **Quiz**
+    - [Monitor, Troubleshoot, and Optimize Azure Solutions Quiz](https://smarturl.it/MONITOR_TROUBLE_QUIZ)
+
+- **Exam Alert**
+    - [Exam Alert: Monitor, Troubleshoot, and Optimize Azure Solutions](https://app.pluralsight.com/library/courses/exam-alert-monitor-troubleshoot-optimize-azure-solutions/table-of-contents)
+
+### 5. Connect to and Consume Azure Services and Third-party Services (15-20%)
 
 - **Implement API Management**
     - Create an API Management instance
@@ -210,80 +287,3 @@ AZ-204 consists of five basic modules such that
 
 - **Exam Alert**
     - [Exam Alert: Connect to and Consume Azure Services and Third-Party Services](https://app.pluralsight.com/library/courses/exam-alert-connect-consume-azure-services-third-party-services/table-of-contents)
-
-### 4. Develop for Azure Storage (15-20%)
-
-- **Develop Solutions that use Cosmos DB Storage**
-    - Select the appropriate API and SDK for a solution
-    - Implement partitioning schemes and partition keys
-    - Perform operations on data and Cosmos DB containers
-    - Set the appropriate consistency level for operations
-    - Manage change feed notifications
-    - [NoSQL database differences](https://drive.google.com/file/d/1IqId3TBDe7gN3-aQZU32FXJICEs8Rbwh/view?usp=sharing)
-    - [Cosmos DB partition key](https://drive.google.com/file/d/1UhB_Fs4MW_gpjYsZUhJaQs7ozwE9HFl3/view?usp=sharing)
-    - [Cosmos DB consistency levels](https://drive.google.com/file/d/1bmCedOjDOXpXOiW5fXQhKGFphdOyHBHn/view?usp=sharing)
-    - [Cosmos DB API use cases](https://drive.google.com/file/d/1nck5kb08YtcLw49rcXY98c8xGMv7LySd/view?usp=sharing)
-    - [Cosmos DB Server-side concepts](https://drive.google.com/file/d/1kmKm83BW1Z1opXwGL9lme6CBRe0lowRg/view?usp=sharing)
-    - [Cosmos DB Throughput](https://drive.google.com/file/d/1dzr5Q5Fx4FoJukBdOYw6uZjhOX0aWu-A/view?usp=sharing)
-    - [Cosmos DB create CLI](./DevelopForAzureStorage/04_create_cosmos_db_cli.md)
-    - Pluralsight
-      course: [Microsoft Azure Developer: Develop Solutions with Cosmos DB Storage](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-solutions-cosmos-db-storage/table-of-contents)
-
-- **Develop solutions that use Blob storage**
-    - [Move items in Blob storage between storage accounts or containers](./DevelopForAzureStorage/01_move_items_between_blob_accounts.md)
-    - [Set and retrieve properties and metadata](https://github.com/kolosovpetro/AzureStorageSDKTraining.AZ204)
-    - Perform operations on data by using the appropriate SDK
-    - Implement storage policies, and data archiving and retention
-    - [Blob Storage replication strategies](https://drive.google.com/file/d/1RIrGUJw7A0_f2ldJWpF2CQX6gQ4aHm0y/view)
-    - [Create blob storage CLI](./DevelopForAzureStorage/02_create_blob_storage_using_cli.md)
-    - [Create blob storage Powershell](./DevelopForAzureStorage/03_create_blob_storage_using_powershell.md)
-    - Pluralsight
-      course: [Microsoft Azure Developer: Develop Solutions with Blob Storage](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-solutions-blob-storage/table-of-contents)
-
-- **Quiz**
-    - [Develop for Azure Blob Storage Quiz](https://smarturl.it/09_BLOB_STORAGE_QUIZ)
-    - [Develop for Azure CosmosDB Quiz](https://smarturl.it/10_COSMOSDB_QUIZ)
-
-- **Exam Alert**
-    - [Exam Alert: Develop for Azure Storage](https://app.pluralsight.com/library/courses/exam-alert-develop-azure-storage/table-of-contents)
-
-### 5. Monitor, Troubleshoot, and Optimize Azure Solutions (15-20%)
-
-- **Integrate Caching and Content Delivery Within Solutions**
-    - Configure cache and expiration policies for Azure Redis cache
-    - Implement secure and optimized application cache patterns including data sizing, connections, encryption, and
-      expiration
-    - [CDN content distribution](https://drive.google.com/file/d/1MP-muO-fb8vQAe9aybHPBb4zQ6yYKUkf/view?usp=sharing)
-    - [CDN request response life cycle](https://drive.google.com/file/d/1fUnHwVpQu9LPXUMIc-JN4jWg14CMwbU3/view?usp=sharing)
-    - [When to use cache](https://drive.google.com/file/d/1zPnuBkYQj0LXMhglzJer-dyKDJfwX9pP/view?usp=sharing)
-    - [Cache best practices](https://drive.google.com/file/d/1Isk1NHdKCn2A7pgDgEKxNPM5ebtAbkRN/view?usp=sharing)
-    - [Cache aside pattern](https://drive.google.com/file/d/1U__hIdaqv5PyXUz22GliOoNvcVnU93nE/view?usp=sharing)
-    - [Cache content pattern](https://drive.google.com/file/d/1I9QkMB6HA0P_CrhZbV4iNCii43S7usHa/view?usp=sharing)
-    - [Cache user session pattern](https://drive.google.com/file/d/1BeOsv5jP-tVObxvYCDE6yAiF9RxqknXg/view?usp=sharing)
-    - [Azure redis cache use cases](https://drive.google.com/file/d/1xBt6sv6EPvwnyk7K2XLBf_E1m1UMZ-WN/view?usp=sharing)
-    - [Cache configuration best practices](https://drive.google.com/file/d/1O1rhj68a5eBm_82eY2WWmacYsYbrGJuZ/view?usp=sharing)
-    - Pluralsight
-      course: [Microsoft Azure Developer: Integrate Caching and Content Delivery](https://app.pluralsight.com/library/courses/microsoft-azure-developer-integrate-caching-content-delivery/table-of-contents)
-
-- **Instrument Solutions to Support Monitoring and Logging**
-    - Configure an app or service to use Application Insights
-    - Analyze and troubleshoot solutions by using Azure Monitor
-    - Implement Application Insights web tests and alerts
-    - [Configure web app logging](https://drive.google.com/file/d/1Am166myZK5FcltT4LCWkrUWVYXXIIruD/view?usp=sharing)
-    - [Dealing with transient faults](https://drive.google.com/file/d/1KdkHNft_KZbK2sZUuhqvaJagHD3aWIxE/view?usp=sharing)
-    - [Azure monitor structure](https://drive.google.com/file/d/1CTR122_HrQa6gDiir09G4irdIX6ma0OO/view?usp=sharing)
-    - [Azure monitor capabilities](https://drive.google.com/file/d/1VLSPH7ZwNw7VUwyV6rAQxHxvXf6kWSk7/view?usp=sharing)
-    - [Application insights capabilities](https://drive.google.com/file/d/1OAETkG9TMb1R2Txwb9kuXU974v2pJAJT/view?usp=sharing)
-    - [Application insights action groups](https://drive.google.com/file/d/1D3VMF_VonW-Ph8DbynKJ5bzP07VxlhC_/view?usp=sharing)
-    - [Transient fault challenges](https://drive.google.com/file/d/1hQbqY7sJYabhc7syfdUrs-yWaEqQfKP6/view?usp=sharing)
-    - [Retry policy](https://drive.google.com/file/d/1xl8UlPMYHrLqHLK1uZB5rMlqrlKHUK7l/view?usp=sharing)
-    - [Circuit breaker policy](https://drive.google.com/file/d/1t0DvYnsQO0v69NMhJlfINJB78EWIT6Hc/view?usp=sharing)
-    - [Azure resource abbreviations](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations)
-    - Pluralsight
-      course: [Microsoft Azure Developer: Instrument Solutions for Monitoring and Logging](https://app.pluralsight.com/library/courses/microsoft-azure-developer-instrument-solutions-monitoring-logging/table-of-contents)
-
-- **Quiz**
-    - [Monitor, Troubleshoot, and Optimize Azure Solutions Quiz](https://smarturl.it/MONITOR_TROUBLE_QUIZ)
-
-- **Exam Alert**
-    - [Exam Alert: Monitor, Troubleshoot, and Optimize Azure Solutions](https://app.pluralsight.com/library/courses/exam-alert-monitor-troubleshoot-optimize-azure-solutions/table-of-contents)
