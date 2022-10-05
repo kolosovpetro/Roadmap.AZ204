@@ -193,7 +193,8 @@ AZ-204 consists of five basic modules such that
       course: [Microsoft Azure Developer: Develop Message-based Solutions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-message-based-solutions/table-of-contents)
 
 - **Notification hubs**
-    - [Notification hubs create CLI](./EventBasedSolutions/05_create_notigication_hub_cli.md)
+    - [Notification hubs create CLI](./EventBasedSolutions/05_create_notification_hub_cli.md)
+    - [Notification hubs create Powershell](./EventBasedSolutions/06_create_notification_hub_powershell.md)
     - [Notification hubs features](https://drive.google.com/file/d/1oNwjXGtXV47wfIBvdLaPOfl1rHl2wPW_/view?usp=sharing)
     - [Notification hubs and namespaces](https://drive.google.com/file/d/1HiWFV5J-qmrnUfYm0mtDTceLb16Xz3Hv/view?usp=sharing)
     - [Notification hubs send notification](https://drive.google.com/file/d/1HpSqZaJAQ5n31lXK0Z3blqsIpKbEKzsW/view?usp=sharing)
