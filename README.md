@@ -191,13 +191,17 @@ AZ-204 consists of five basic modules such that
     - [Service bus use cases](https://drive.google.com/file/d/151aPKhACGEt1ZCnsu75u0BK--ku0dsFj/view?usp=sharing)
     - Pluralsight
       course: [Microsoft Azure Developer: Develop Message-based Solutions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-message-based-solutions/table-of-contents)
-- **FAQ**
-    - [Event vs Message](https://drive.google.com/file/d/1dN4Shk4730lH3ozyTD2rZIm-IaSyKEzc/view?usp=sharing)
-    - [Select Event based solution](https://drive.google.com/file/d/1-RftB3huRtfs94SCYkgCutvG_nV-6ZoM/view?usp=sharing)
+
+- **Notification hubs**
+    - [Notification hubs create CLI](./EventBasedSolutions/05_create_notigication_hub_cli.md)
     - [Notification hubs features](https://drive.google.com/file/d/1oNwjXGtXV47wfIBvdLaPOfl1rHl2wPW_/view?usp=sharing)
     - [Notification hubs and namespaces](https://drive.google.com/file/d/1HiWFV5J-qmrnUfYm0mtDTceLb16Xz3Hv/view?usp=sharing)
     - [Notification hubs send notification](https://drive.google.com/file/d/1HpSqZaJAQ5n31lXK0Z3blqsIpKbEKzsW/view?usp=sharing)
     - [Notification hubs register app and send pushes](https://drive.google.com/file/d/1RmSy5rz1F6dFDx5iT11H5pMZThDmSxEP/view?usp=sharing)
+
+- **FAQ**
+    - [Event vs Message](https://drive.google.com/file/d/1dN4Shk4730lH3ozyTD2rZIm-IaSyKEzc/view?usp=sharing)
+    - [Select Event based solution](https://drive.google.com/file/d/1-RftB3huRtfs94SCYkgCutvG_nV-6ZoM/view?usp=sharing)
 
 - **Quiz**
     - [Connect to and Consume Azure Services and Third-party Services Quiz](https://quizlet.com/_c13tmw?x=1qqt&i=2n5czk)
