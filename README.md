@@ -40,6 +40,7 @@ Also, keep especial attention to the following topics:
 - [Cache key eviction](https://quizlet.com/_c20755?x=1qqt&i=2n5czk)
 - [Web test types](https://quizlet.com/_c230q0?x=1jqt&i=2n5czk)
 - [APIM management policies](https://github.com/kolosovpetro/MonitoringAndLogging.AZ204/tree/master/api-management-policies)
+- [Resources creation steps](https://quizlet.com/_c3ilw9?x=1jqt&i=2n5czk)
 
 As a short conclusion, I want to mention that I am also relatively newbie on Azure,
 so this study approach is as well an experiment for me, we'll see how it works :)
@@ -160,6 +161,7 @@ AZ-204 consists of five basic modules such that
     - [RFC: Proof key of code exchange (PKCE)](https://www.rfc-editor.org/rfc/rfc7636.html)
     - [OAuth 2.0 Flows Diagrams](https://darutk.medium.com/diagrams-and-movies-of-all-the-oauth-2-0-flows-194f3c3ade85)
     - [OAuth general flow](./ImplementSecureSolutions/03_oauth_flow.pdf)
+    - [OAuth + PKCE flow](./ImplementSecureSolutions/OAuthPkceScheme.pdf)
     - Pluralsight
       course: [Microsoft Azure Developer: Implement User Authentication and Authorization](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-user-authentication-authorization/table-of-contents)
 
@@ -263,6 +265,8 @@ AZ-204 consists of five basic modules such that
     - [Queue storage use cases](https://drive.google.com/file/d/1o1_SrvxOTzx3f8b2SkZIcoD2nK8iqrq_/view?usp=sharing)
     - [Queue storage create CLI](./MessageBasedSolutions/01_create_queue_storage_cli.md)
     - [Queue storage create Powershell](./MessageBasedSolutions/02_queue_storage_create_powershell.md)
+    - [Service bus create CLI](./MessageBasedSolutions/03_service_bus_create_cli.md)
+    - [Service bus create Powershell](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-powershell)
     - [Service bus architecture](https://drive.google.com/file/d/1jd8JldlkssbO4SmP1Pr1tvhz8dkkxNFz/view?usp=sharing)
     - [Service bus interaction using CLI](https://drive.google.com/file/d/1SFOf9ZrGs7V8hl2Bd5nod6IGnySytgT4/view?usp=sharing)
     - [Service bus use cases](https://drive.google.com/file/d/151aPKhACGEt1ZCnsu75u0BK--ku0dsFj/view?usp=sharing)
