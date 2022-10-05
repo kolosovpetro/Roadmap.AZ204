@@ -1,4 +1,4 @@
-﻿# Create event grid using CLI
+﻿# Create event grid using CLI and send events from Postman
 
 - Create resource group
     - `$rgname="rg-event-grid"`
