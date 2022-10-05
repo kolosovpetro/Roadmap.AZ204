@@ -1,5 +1,7 @@
 ﻿# Create event grid using CLI and send events from Postman
 
+App service source code: https://github.com/Azure-Samples/azure-event-grid-viewer
+
 - Create resource group
     - `$rgname="rg-event-grid"`
     - `az group create --name $rgname --location "westus"`
