@@ -99,7 +99,7 @@ AZ-204 consists of five basic modules such that
       course: [Microsoft Azure Developer: Implement Azure Functions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-azure-functions/table-of-contents)
 
 - **Quiz**
-    - [Develop Azure Compute Solutions Quiz](https://quizlet.com/_c0kt4h?x=1qqt&i=2n5czk)
+    - [Develop Azure Compute Solutions Quiz](https://smarturl.it/11_COMPUTE_QUIZ)
 
 - **Exam Alert**
     - [Exam Alert: Develop Azure Compute Solutions](https://app.pluralsight.com/library/courses/exam-alert-develop-azure-compute-solutions/table-of-contents)
@@ -143,7 +143,7 @@ AZ-204 consists of five basic modules such that
       course: [Microsoft Azure Developer: Implement Secure Cloud Solutions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-secure-cloud-solutions/table-of-contents)
 
 - **Quiz**
-    - [Implement Azure Security Quiz](https://quizlet.com/_c13weq?x=1jqt&i=2n5czk)
+    - [Implement Azure Security Quiz](https://smarturl.it/07_SECURITY_QUIZ)
 
 - **Exam Alert**
     - [Exam Alert: Implement Azure Security](https://app.pluralsight.com/library/courses/exam-alert-implement-azure-security/table-of-contents)
@@ -205,7 +205,8 @@ AZ-204 consists of five basic modules such that
     - [Select Event based solution](https://drive.google.com/file/d/1-RftB3huRtfs94SCYkgCutvG_nV-6ZoM/view?usp=sharing)
 
 - **Quiz**
-    - [Connect to and Consume Azure Services and Third-party Services Quiz](https://quizlet.com/_c13tmw?x=1qqt&i=2n5czk)
+    - [Event and Messaging Quiz](https://smarturl.it/EVENT_MESSAGING_QUIZ)
+    - [APIM Quiz](https://smarturl.it/08_APIM_QUIZ)
 
 - **Exam Alert**
     - [Exam Alert: Connect to and Consume Azure Services and Third-Party Services](https://app.pluralsight.com/library/courses/exam-alert-connect-consume-azure-services-third-party-services/table-of-contents)
@@ -240,8 +241,8 @@ AZ-204 consists of five basic modules such that
       course: [Microsoft Azure Developer: Develop Solutions with Blob Storage](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-solutions-blob-storage/table-of-contents)
 
 - **Quiz**
-    - [Develop for Azure Blob Storage Quiz](https://quizlet.com/_c0ktgh?x=1jqt&i=2n5czk)
-    - [Develop for Azure CosmosDB Quiz](https://quizlet.com/_c0qp02?x=1qqt&i=2n5czk)
+    - [Develop for Azure Blob Storage Quiz](https://smarturl.it/09_BLOB_STORAGE_QUIZ)
+    - [Develop for Azure CosmosDB Quiz](https://smarturl.it/10_COSMOSDB_QUIZ)
 
 - **Exam Alert**
     - [Exam Alert: Develop for Azure Storage](https://app.pluralsight.com/library/courses/exam-alert-develop-azure-storage/table-of-contents)
@@ -282,7 +283,7 @@ AZ-204 consists of five basic modules such that
       course: [Microsoft Azure Developer: Instrument Solutions for Monitoring and Logging](https://app.pluralsight.com/library/courses/microsoft-azure-developer-instrument-solutions-monitoring-logging/table-of-contents)
 
 - **Quiz**
-    - [Monitor, Troubleshoot, and Optimize Azure Solutions Quiz](https://quizlet.com/_c17ztb?x=1jqt&i=2n5czk)
+    - [Monitor, Troubleshoot, and Optimize Azure Solutions Quiz](https://smarturl.it/MONITOR_TROUBLE_QUIZ)
 
 - **Exam Alert**
     - [Exam Alert: Monitor, Troubleshoot, and Optimize Azure Solutions](https://app.pluralsight.com/library/courses/exam-alert-monitor-troubleshoot-optimize-azure-solutions/table-of-contents)
