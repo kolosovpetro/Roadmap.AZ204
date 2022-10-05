@@ -53,25 +53,25 @@ AZ-204 consists of five basic modules such that
 
 - **Implement IaaS Solutions**
     - Provision Virtual Machines (VMs)
-        - [Create Windows VM using CLI](./DevelopAzureComputeSoultions/06_create_windows_vm_using_cli.md)
-        - [Create Linux VM using CLI](./DevelopAzureComputeSoultions/07_create_linux_vm_using_cli.md)
-        - [Create Windows VM using Az Powershell](./DevelopAzureComputeSoultions/08_create_windows_vm_using_powershell.md)
+        - [Windows VM create CLI](./DevelopAzureComputeSoultions/06_create_windows_vm_using_cli.md)
+        - [Linux VM create CLI](./DevelopAzureComputeSoultions/07_create_linux_vm_using_cli.md)
+        - [Windows VM create Powershell](./DevelopAzureComputeSoultions/08_create_windows_vm_using_powershell.md)
     - Configure, validate, and deploy ARM templates
-        - [Deploy ARM template using CLI](./DevelopAzureComputeSoultions/09_deploy_arm_template_using_CLI.md)
-        - [Deploy ARM template using Az Powershell](./DevelopAzureComputeSoultions/10_deploy_arm_template_using_powershell.md)
+        - [ARM template deploy CLI](./DevelopAzureComputeSoultions/09_deploy_arm_template_using_CLI.md)
+        - [ARM template deploy Powershell](./DevelopAzureComputeSoultions/10_deploy_arm_template_using_powershell.md)
     - Configure container images for solutions
-    - [Publish docker image to ACR CLI](./DevelopAzureComputeSoultions/01_publish_image_to_acr_cli.md)
-    - [Publish docker image to ACR Powershell](./DevelopAzureComputeSoultions/16_publish_image_to_acr_powershell.md)
-    - [Run docker containers using Azure Container Instance](./DevelopAzureComputeSoultions/05_run_containers_using_instances.md)
+    - [ACR docker image push CLI](./DevelopAzureComputeSoultions/01_publish_image_to_acr_cli.md)
+    - [ACR docker image push Powershell](./DevelopAzureComputeSoultions/16_publish_image_to_acr_powershell.md)
+    - [Azure Container Instance run docker container](./DevelopAzureComputeSoultions/05_run_containers_using_instances.md)
     - Pluralsight
       course: [Microsoft Azure Developer: Implement IaaS Solutions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-iaas-solutions/table-of-contents)
 
 - **Create Azure App Service Web Apps**
-    - [Create an Azure App Service CLI](./DevelopAzureComputeSoultions/02_create_app_service_cli.md)
-    - [Create an Azure App Service PowerShell](./DevelopAzureComputeSoultions/13_create_app_service_powershell.md)
+    - [App service create CLI](./DevelopAzureComputeSoultions/02_create_app_service_cli.md)
+    - [App service create PowerShell](./DevelopAzureComputeSoultions/13_create_app_service_powershell.md)
     - Enable diagnostic logging
-    - [Deploy code to a App Service CLI](./DevelopAzureComputeSoultions/03_deploy_code_to_app_service.md)
-    - [Deploy App Service ARM template](https://azure.microsoft.com/en-us/resources/templates/webapp-basic-linux/)
+    - [App service ZIP deploy CLI](./DevelopAzureComputeSoultions/03_deploy_code_to_app_service.md)
+    - [App service ARM template deploy (CLI & Powershell)](https://azure.microsoft.com/en-us/resources/templates/webapp-basic-linux/)
     - Configure web app settings
     - Implement autoscaling rules, including scheduled autoscaling, and scaling by operational or system metrics
     - [App service plan tiers (Medium post)](https://medium.com/@zaab_it/azure-app-service-plan-tiers-f07d5e22297a)
@@ -86,7 +86,7 @@ AZ-204 consists of five basic modules such that
       course: [Microsoft Azure Developer: Create Azure App Service Web Apps](https://app.pluralsight.com/library/courses/azure-developer-create-azure-app-service-web-apps/table-of-contents)
 
 - **Implement Azure Functions**
-    - [Create and deploy Azure Functions](./DevelopAzureComputeSoultions/04_create_and_deploy_azure_function.md)
+    - [Azure Functions create and deploy](./DevelopAzureComputeSoultions/04_create_and_deploy_azure_function.md)
     - Implement input and output bindings for a function
     - Implement function triggers by using data operations, timers, and webhooks
     - Implement Azure Durable Functions
@@ -129,9 +129,9 @@ AZ-204 consists of five basic modules such that
     - [Set and retrieve properties and metadata](https://github.com/kolosovpetro/AzureStorageSDKTraining.AZ204)
     - Perform operations on data by using the appropriate SDK
     - Implement storage policies, and data archiving and retention
-    - [Blob Storage replication strategies](https://drive.google.com/file/d/1RIrGUJw7A0_f2ldJWpF2CQX6gQ4aHm0y/view)
-    - [Create blob storage CLI](./DevelopForAzureStorage/02_create_blob_storage_using_cli.md)
-    - [Create blob storage Powershell](./DevelopForAzureStorage/03_create_blob_storage_using_powershell.md)
+    - [Blob storage replication strategies](https://drive.google.com/file/d/1RIrGUJw7A0_f2ldJWpF2CQX6gQ4aHm0y/view)
+    - [Blob storage create CLI](./DevelopForAzureStorage/02_create_blob_storage_using_cli.md)
+    - [Blob storage create Powershell](./DevelopForAzureStorage/03_create_blob_storage_using_powershell.md)
     - Pluralsight
       course: [Microsoft Azure Developer: Develop Solutions with Blob Storage](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-solutions-blob-storage/table-of-contents)
 
