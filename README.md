@@ -28,19 +28,22 @@ So, study flow is the following
 - Practice: `Watch cource on pluralsight -> Complete demos of the cource -> Upload results to github`
 - Practice: `Complete lab on Microsoft Labs resource`
 
-Also, keep especial attention to the following topics:
+## Repeat on daily basis
 
-- [App service plan features](https://quizlet.com/_c1fn2x?x=1qqt&i=2n5czk)
+Also, keep especial attention to the following topics and repeat them frequently
+
+- [App service plan features quiz](https://quizlet.com/_c1fn2x?x=1qqt&i=2n5czk)
 - [App service plan limits (MSDN)](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#app-service-limits)
-- [Storage replication strategies](https://quizlet.com/_c1fxsz?x=1jqt&i=2n5czk)
+- [Storage replication strategies quiz](https://quizlet.com/_c1fxsz?x=1jqt&i=2n5czk)
 - Choosing proper solution between event-based and message-based
 - `AzCopy` command
-- [Cosmos DB consistency levels](https://quizlet.com/_c1fuf3?x=1jqt&i=2n5czk)
+- [Cosmos DB consistency levels quiz](https://quizlet.com/_c1fuf3?x=1jqt&i=2n5czk)
 - KeyVault references syntax
-- [Cache key eviction](https://quizlet.com/_c20755?x=1qqt&i=2n5czk)
-- [Web test types](https://quizlet.com/_c230q0?x=1jqt&i=2n5czk)
+- [Cache key eviction quiz](https://quizlet.com/_c20755?x=1qqt&i=2n5czk)
+- [Web test types quiz](https://quizlet.com/_c230q0?x=1jqt&i=2n5czk)
 - [APIM management policies](https://github.com/kolosovpetro/MonitoringAndLogging.AZ204/tree/master/api-management-policies)
-- [Resources creation steps](https://quizlet.com/_c3ilw9?x=1jqt&i=2n5czk)
+- [Resources creation steps quiz](https://quizlet.com/_c3ilw9?x=1jqt&i=2n5czk)
+- [ACR roles quiz](https://quizlet.com/_c3nqw2?x=1jqt&i=2n5czk)
 
 As a short conclusion, I want to mention that I am also relatively newbie on Azure,
 so this study approach is as well an experiment for me, we'll see how it works :)
