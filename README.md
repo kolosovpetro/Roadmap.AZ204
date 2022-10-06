@@ -59,24 +59,24 @@ AZ-204 consists of five basic modules such that
 
 - **Implement IaaS Solutions**
     - Provision Virtual Machines (VMs)
-        - [VM Windows create CLI](./DevelopAzureComputeSoultions/06_create_windows_vm_using_cli.md)
-        - [VM Linux create CLI](./DevelopAzureComputeSoultions/07_create_linux_vm_using_cli.md)
-        - [Windows VM create Powershell](./DevelopAzureComputeSoultions/08_create_windows_vm_using_powershell.md)
+        - [VM Windows create CLI](./DevelopAzureComputeSoultions/01_vm_windows_create_cli.md)
+        - [VM Linux create CLI](./DevelopAzureComputeSoultions/02_vm_linux_create_cli.md)
+        - [VM Windows create Powershell](./DevelopAzureComputeSoultions/03_vm_windows_create_powershell.md)
     - Configure, validate, and deploy ARM templates
-        - [ARM template deploy CLI](./DevelopAzureComputeSoultions/09_deploy_arm_template_using_CLI.md)
-        - [ARM template deploy Powershell](./DevelopAzureComputeSoultions/10_deploy_arm_template_using_powershell.md)
+        - [ARM template deploy CLI](./DevelopAzureComputeSoultions/04_arm_template_deploy_cli.md)
+        - [ARM template deploy Powershell](./DevelopAzureComputeSoultions/05_arm_template_deploy_powershell.md)
     - Configure container images for solutions
-    - [ACR docker image push CLI](./DevelopAzureComputeSoultions/01_publish_image_to_acr_cli.md)
-    - [ACR docker image push Powershell](./DevelopAzureComputeSoultions/16_publish_image_to_acr_powershell.md)
-    - [Azure Container Instance run docker container](./DevelopAzureComputeSoultions/05_run_containers_using_instances.md)
+    - [ACR docker image push CLI](./DevelopAzureComputeSoultions/06_acr_docker_image_push_cli.md)
+    - [ACR docker image push Powershell](./DevelopAzureComputeSoultions/07_acr_docker_image_push_powershell.md)
+    - [ACI run docker container](./DevelopAzureComputeSoultions/08_aci_run_docker_container.md)
     - Pluralsight
       course: [Microsoft Azure Developer: Implement IaaS Solutions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-iaas-solutions/table-of-contents)
 
 - **Create Azure App Service Web Apps**
-    - [App service create CLI](./DevelopAzureComputeSoultions/02_create_app_service_cli.md)
-    - [App service create PowerShell](./DevelopAzureComputeSoultions/13_create_app_service_powershell.md)
+    - [App service create CLI](./DevelopAzureComputeSoultions/09_app_service_create_cli.md)
+    - [App service create PowerShell](./DevelopAzureComputeSoultions/10_app_service_create_powershell.md)
     - Enable diagnostic logging
-    - [App service ZIP deploy CLI](./DevelopAzureComputeSoultions/03_deploy_code_to_app_service.md)
+    - [App service ZIP deploy CLI](./DevelopAzureComputeSoultions/11_app_service_zip_deploy_cli.md)
     - [App service ARM template deploy (CLI & Powershell)](https://azure.microsoft.com/en-us/resources/templates/webapp-basic-linux/)
     - Configure web app settings
     - Implement autoscaling rules, including scheduled autoscaling, and scaling by operational or system metrics
@@ -84,15 +84,15 @@ AZ-204 consists of five basic modules such that
     - [App service limits (MSDN)](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#app-service-limits)
     - [App service pricing (MSDN)](https://azure.microsoft.com/en-us/pricing/details/app-service/windows/)
     - [App service plan features](https://drive.google.com/file/d/1xOv2HuAv8zbDCymZVCvBAHLc-MWkId_c/view?usp=sharing)
-    - [App service plan tiers usage](./DevelopAzureComputeSoultions/12_app_service_plan_ties_usage.md)
+    - [App service plan tiers usage](./DevelopAzureComputeSoultions/12_app_service_plan_tiers_usage.md)
     - [App service docker environment constants](https://drive.google.com/file/d/15xRK_ea3s-tVwcnQHziyoT59KISt1Ct1/view?usp=sharing)
-    - [App service add custom domain](./DevelopAzureComputeSoultions/14_app_service_add_custom_domain.md)
-    - [App service configure SSL for custom domain](./DevelopAzureComputeSoultions/15_app_service_configure_ssl_for_custom_domain.md)
+    - [App service add custom domain](./DevelopAzureComputeSoultions/13_app_service_add_custom_domain.md)
+    - [App service configure SSL for custom domain](./DevelopAzureComputeSoultions/14_app_service_configure_ssl_for_custom_domain.md)
     - Pluralsight
       course: [Microsoft Azure Developer: Create Azure App Service Web Apps](https://app.pluralsight.com/library/courses/azure-developer-create-azure-app-service-web-apps/table-of-contents)
 
 - **Implement Azure Functions**
-    - [Azure Functions create and deploy](./DevelopAzureComputeSoultions/04_create_and_deploy_azure_function.md)
+    - [Azure Functions create and deploy CLI](./DevelopAzureComputeSoultions/15_azure_functions_create_and_deploy_cli.md)
     - Implement input and output bindings for a function
     - Implement function triggers by using data operations, timers, and webhooks
     - Implement Azure Durable Functions
@@ -101,7 +101,7 @@ AZ-204 consists of five basic modules such that
         - Azure Durable Functions: Async HTTP APIs
         - Azure Durable Functions: Monitoring
         - Azure Durable Functions: Human Interaction
-        - [!!!DO NOT DO THIS IN ORCHESTRATOR FUNCTION!!!](./DevelopAzureComputeSoultions/11_dont_do_this_in_orchestrator_function.md)
+        - [!!!DO NOT DO THIS IN ORCHESTRATOR FUNCTION!!!](./DevelopAzureComputeSoultions/16_dont_do_this_in_orchestrator_function.md)
     - Implement custom handlers
     - Pluralsight
       course: [Microsoft Azure Developer: Implement Azure Functions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-azure-functions/table-of-contents)
