@@ -5,11 +5,11 @@ App service source code: https://github.com/Azure-Samples/azure-event-grid-viewe
 - Create resource group
     - `$rgname="rg-event-grid-$(Get-Random 1000)"`
     - `New-AzResourceGroup -Name $rgname -Location "westus"`
-- Register event grid namespace
+- Register event grid provider
     - `Register-AzResourceProvider -ProviderNamespace Microsoft.EventGrid`
-- Check event grid namespace registration status
+- Check event grid provider registration status
     - `Get-AzResourceProvider -ProviderNamespace Microsoft.EventGrid`
-- Create custom topic
+- Create custom event grid topic
     - `$topicname="topic$(Get-Random 1000)"`
     - `New-AzEventGridTopic -ResourceGroupName $rgname -Location "westus2" -Name $topicname`
 - Create message endpoint

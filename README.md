@@ -44,6 +44,9 @@ Also, keep especial attention to the following topics and repeat them frequently
 - [APIM management policies](https://github.com/kolosovpetro/MonitoringAndLogging.AZ204/tree/master/api-management-policies)
 - [Resources creation steps quiz](https://quizlet.com/_c3ilw9?x=1jqt&i=2n5czk)
 - [ACR roles quiz](https://quizlet.com/_c3nqw2?x=1jqt&i=2n5czk)
+- [Compute solutions CLI quiz](https://quizlet.com/_c3pcis?x=1jqt&i=2n5czk)
+- [Storage CLI quiz](https://quizlet.com/_c3qqkb?x=1qqt&i=2n5czk)
+- [Event solutions CLI quiz](https://quizlet.com/_c3rver?x=1jqt&i=2n5czk)
 
 As a short conclusion, I want to mention that I am also relatively newbie on Azure,
 so this study approach is as well an experiment for me, we'll see how it works :)
