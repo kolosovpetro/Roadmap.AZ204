@@ -29,7 +29,7 @@ az container create
   --registry-password $PASSWORD
 ```
 
-- Confirm the container is running and test access to the web application:
+- Confirm that container is running and test access to the web application
     - `az container show --resource-group "rg-acr-practice" --name "rg-acr-practice-cli-deploy"`
 - Pull the logs from the container
     - `az container logs --resource-group "rg-acr-practice" --name "rg-acr-practice-cli-deploy"`
