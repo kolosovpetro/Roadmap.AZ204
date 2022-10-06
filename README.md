@@ -126,7 +126,7 @@ AZ-204 consists of five basic modules such that
     - [Cosmos DB API use cases](https://drive.google.com/file/d/1nck5kb08YtcLw49rcXY98c8xGMv7LySd/view?usp=sharing)
     - [Cosmos DB Server-side concepts](https://drive.google.com/file/d/1kmKm83BW1Z1opXwGL9lme6CBRe0lowRg/view?usp=sharing)
     - [Cosmos DB Throughput](https://drive.google.com/file/d/1dzr5Q5Fx4FoJukBdOYw6uZjhOX0aWu-A/view?usp=sharing)
-    - [Cosmos DB create CLI](./DevelopForAzureStorage/04_create_cosmos_db_cli.md)
+    - [Cosmos DB create CLI](./DevelopForAzureStorage/04_cosmos_db_create_cli.md)
     - Pluralsight
       course: [Microsoft Azure Developer: Develop Solutions with Cosmos DB Storage](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-solutions-cosmos-db-storage/table-of-contents)
 
@@ -136,8 +136,8 @@ AZ-204 consists of five basic modules such that
     - Perform operations on data by using the appropriate SDK
     - Implement storage policies, and data archiving and retention
     - [Blob storage replication strategies](https://drive.google.com/file/d/1RIrGUJw7A0_f2ldJWpF2CQX6gQ4aHm0y/view)
-    - [Blob storage create CLI](./DevelopForAzureStorage/02_create_blob_storage_using_cli.md)
-    - [Blob storage create Powershell](./DevelopForAzureStorage/03_create_blob_storage_using_powershell.md)
+    - [Blob storage create CLI](./DevelopForAzureStorage/02_blob_storage_create_cli.md)
+    - [Blob storage create Powershell](./DevelopForAzureStorage/03_blob_storage_create_powershell.md)
     - Pluralsight
       course: [Microsoft Azure Developer: Develop Solutions with Blob Storage](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-solutions-blob-storage/table-of-contents)
 
@@ -168,7 +168,7 @@ AZ-204 consists of five basic modules such that
     - [RFC: Proof key of code exchange (PKCE)](https://www.rfc-editor.org/rfc/rfc7636.html)
     - [OAuth 2.0 Flows Diagrams](https://darutk.medium.com/diagrams-and-movies-of-all-the-oauth-2-0-flows-194f3c3ade85)
     - [OAuth general flow](./ImplementSecureSolutions/03_oauth_flow.pdf)
-    - [OAuth + PKCE flow](./ImplementSecureSolutions/OAuthPkceScheme.pdf)
+    - [OAuth + PKCE flow](./ImplementSecureSolutions/04_oauth_with_pkce_flow.pdf)
     - Pluralsight
       course: [Microsoft Azure Developer: Implement User Authentication and Authorization](https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-user-authentication-authorization/table-of-contents)
 
@@ -178,8 +178,8 @@ AZ-204 consists of five basic modules such that
     - Implement solutions that interact with Microsoft Graph
     - Implement Managed Identities for Azure resources
     - KeyVault create using CLI
-    - [KeyVault create using PowerShell](./ImplementSecureSolutions/01_create_keyvault_powershell.md)
-    - [KeyVault create using CLI](./ImplementSecureSolutions/02_create_keyvault_cli.md)
+    - [KeyVault create using PowerShell](./ImplementSecureSolutions/01_keyvault_create_powershell.md)
+    - [KeyVault create using CLI](./ImplementSecureSolutions/02_keyvault_create_cli.md)
     - [KeyVault references use cases](https://drive.google.com/file/d/16zE4LFvmzpsA0BQ-iXJQSMtuqXHUT_uL/view?usp=sharing)
     - [KeyVault references syntax](https://drive.google.com/file/d/1AxhpHJMGxCjLz_hxMEDlpToxSHREjsjg/view?usp=sharing)
     - [KeyVault soft delete](https://drive.google.com/file/d/1CB8V9aRtJSsSOHpsw9zceA9KEIEXDhjr/view?usp=sharing)
@@ -251,12 +251,12 @@ AZ-204 consists of five basic modules such that
     - [Implement solutions that use Azure Event Grid](https://github.com/kolosovpetro/EventGridDemo.AZ204)
     - [Event grid provider registration](https://drive.google.com/file/d/1RMasVMHw-Jqpb7QQ4_zeYevYGJX8AZ1g/view?usp=sharing)
     - [Event grid terminology](https://drive.google.com/file/d/1lKrNdgdeKy1G5nYXJVqEjh4kpn0i_zbL/view?usp=sharing)
-    - [Event grid create CLI and send event via Postman](./EventBasedSolutions/03_create_event_grid_and%20send_events_postman_cli.md)
-    - [Event grid create Powershell and send event via Postman](./EventBasedSolutions/04_create_event_grid_and_send_events_postman_powershell.md)
+    - [Event grid create CLI and send events via Postman](./EventBasedSolutions/03_event_grid_create_and%20send_events_postman_cli.md)
+    - [Event grid create Powershell and send events via Postman](./EventBasedSolutions/04_event_grid_create_and_send_events_postman_powershell.md)
     - Implement solutions that use Azure Event Hub
     - [Event hub components](https://drive.google.com/file/d/1ROqLEc6nhFH05qZHwNySE9IDmv0_WiKq/view?usp=sharing)
-    - [Event hub create CLI](./EventBasedSolutions/01_create_event_hub_cli.md)
-    - [Event hub create Powershell](./EventBasedSolutions/02_create_event_hub_powershell.md)
+    - [Event hub create CLI](./EventBasedSolutions/01_event_hub_create_cli.md)
+    - [Event hub create Powershell](./EventBasedSolutions/01_event_hub_create_cli.md)
     - [Event hub send events](https://drive.google.com/file/d/1YtYf6BCuYXURLaDEw4kslHfh4eHTzUqz/view?usp=sharing)
     - [Event hub partitions](https://drive.google.com/file/d/1oBlf2RiZMS7LPwc116la0vaHaHtV9stw/view?usp=sharing)
     - [Event hub read events](https://drive.google.com/file/d/1jgBIF1aoBfQVq17ZSZMwmXC8Nesf8kPp/view?usp=sharing)
@@ -270,7 +270,7 @@ AZ-204 consists of five basic modules such that
     - [Queue storage architecture](https://drive.google.com/file/d/1HRew1KVT7r9LNXWX6skR5NKEno9G847C/view?usp=sharing)
     - [Queue storage interaction using CLI](https://drive.google.com/file/d/1GKErhpy5hXojBCt7ovClPsWApa4Y4Nu8/view?usp=sharing)
     - [Queue storage use cases](https://drive.google.com/file/d/1o1_SrvxOTzx3f8b2SkZIcoD2nK8iqrq_/view?usp=sharing)
-    - [Queue storage create CLI](./MessageBasedSolutions/01_create_queue_storage_cli.md)
+    - [Queue storage create CLI](./MessageBasedSolutions/01_queue_storage_create_cli.md)
     - [Queue storage create Powershell](./MessageBasedSolutions/02_queue_storage_create_powershell.md)
     - [Service bus create CLI](./MessageBasedSolutions/03_service_bus_create_cli.md)
     - [Service bus create Powershell](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-powershell)
@@ -281,8 +281,8 @@ AZ-204 consists of five basic modules such that
       course: [Microsoft Azure Developer: Develop Message-based Solutions](https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-message-based-solutions/table-of-contents)
 
 - **Notification hubs**
-    - [Notification hubs create CLI](./EventBasedSolutions/05_create_notification_hub_cli.md)
-    - [Notification hubs create Powershell](./EventBasedSolutions/06_create_notification_hub_powershell.md)
+    - [Notification hubs create CLI](./EventBasedSolutions/05_notification_hub_create_cli.md)
+    - [Notification hubs create Powershell](./EventBasedSolutions/06_notification_hub_create_powershell.md)
     - [Notification hubs features](https://drive.google.com/file/d/1oNwjXGtXV47wfIBvdLaPOfl1rHl2wPW_/view?usp=sharing)
     - [Notification hubs and namespaces](https://drive.google.com/file/d/1HiWFV5J-qmrnUfYm0mtDTceLb16Xz3Hv/view?usp=sharing)
     - [Notification hubs send notification](https://drive.google.com/file/d/1HpSqZaJAQ5n31lXK0Z3blqsIpKbEKzsW/view?usp=sharing)
