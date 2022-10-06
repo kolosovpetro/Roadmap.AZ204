@@ -9,6 +9,6 @@
 - Create service bus topics
     - `az servicebus topic create --namespace-name "pkolosovsbnamespace" --name "topic_one" --resource-group "service-bus-topics-rg"`
     - `az servicebus topic create --namespace-name "pkolosovsbnamespace" --name "topic_two" --resource-group "service-bus-topics-rg"`
-- Create subscriptions
+- Create service bus topic subscriptions
     - `az servicebus topic subscription create --resource-group "service-bus-topics-rg" --namespace-name "pkolosovsbnamespace" --name "topic_one_subscription" --topic-name "topic_one"`
     - `az servicebus topic subscription create --resource-group "service-bus-topics-rg" --namespace-name "pkolosovsbnamespace" --name "topic_two_subscription" --topic-name "topic_two"`

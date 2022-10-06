@@ -7,9 +7,9 @@
 - Create storage account
     - `$storageAccountName = "storagepkolosov"`
     - `$storageAccount = New-AzStorageAccount -ResourceGroupName $resourceGroup -Name $storageAccountName -Location $location -SkuName "Standard_LRS"`
-- Extract storage context
+- Define storage account context
     - `$ctx = $storageAccount.Context`
-- Create a queue
+- Create a queue storage
     - `$queueName = "pklosovqueue"`
     - `$queue = New-AzStorageQueue –Name $queueName -Context $ctx`
 - Remove resource group

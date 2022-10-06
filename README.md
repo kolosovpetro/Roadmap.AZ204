@@ -47,6 +47,7 @@ Also, keep especial attention to the following topics and repeat them frequently
 - [Compute solutions CLI quiz](https://quizlet.com/_c3pcis?x=1jqt&i=2n5czk)
 - [Storage CLI quiz](https://quizlet.com/_c3qqkb?x=1qqt&i=2n5czk)
 - [Event solutions CLI quiz](https://quizlet.com/_c3rver?x=1jqt&i=2n5czk)
+- [Message solutions CLI quiz](https://quizlet.com/_c3sbsq?x=1jqt&i=2n5czk)
 
 As a short conclusion, I want to mention that I am also relatively newbie on Azure,
 so this study approach is as well an experiment for me, we'll see how it works :)
