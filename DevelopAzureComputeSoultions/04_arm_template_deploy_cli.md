@@ -14,12 +14,14 @@
 ### Deploy ARM via CLI
 
 - Create resource group
-    - `az group create --name "rg-ubuntu-vm-arm" --location "westus"`
+    - `$rgName="rg-ubuntu-vm-arm"`
+    - `$location="westus"`
+    - `az group create -n $rgName -l $location`
 - Deploy template
     - `$templatePath = "./arm_templates/exported-portal-rg-ubuntu-vm/template.json"`
     - `$parametersPath = "./arm_templates/exported-portal-rg-ubuntu-vm/parameters.json"`
-    - `az deployment group create --resource-group "rg-ubuntu-vm-arm" --template-file $templatePath --parameters $parametersPath`
+    - `az deployment group create -g $rgName --template-file $templatePath --parameters $parametersPath`
 
 ### Delete resource group
 
-- `az group delete --name "rg-ubuntu-vm-arm" --yes`
+- `az group delete -n $rgName --yes`

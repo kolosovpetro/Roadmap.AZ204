@@ -21,13 +21,16 @@
 
 ### Create the Resource Group
 
-- `New-AzResourceGroup -Name "rg-pwsh-deploy" -Location "CentralUS"`
+- `$rgName="rg-vm-ubuntu-pwsh-arm"`
+- `$location="CentralUS"`
+- `New-AzResourceGroup -Name $rgName -Location $lcoation`
 
 ### Deploy ARM Templates using Azure PowerShell
 
 - `$templatePath = "./arm_templates/exported-portal-rg-ubuntu-vm/template.json"`
 - `$parametersPath = "./arm_templates/exported-portal-rg-ubuntu-vm/parameters.json"`
-- `New-AzResourceGroupDeployment -Name "pwsh-deployment" -ResourceGroupName "rg-pwsh-deploy" -TemplateFile $templatePath -TemplateParameterFile $parametersPath`
+- `$vmName="vm-ubuntu-pwsh-arm"`
+- `New-AzResourceGroupDeployment -Name $vmName -ResourceGroupName $rgName -TemplateFile $templatePath -TemplateParameterFile $parametersPath`
 
 ### Review PowerShell output
 
@@ -35,4 +38,4 @@
 
 ### Delete resource group
 
-- `Remove-AzResourceGroup -Name "rg-pwsh-deploy"`
+- `Remove-AzResourceGroup -Name $rgName`
