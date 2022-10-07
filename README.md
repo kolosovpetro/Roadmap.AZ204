@@ -159,7 +159,6 @@ AZ-204 consists of five basic modules such that
         - [Role-based authorization using AAD and two web APIs](https://github.com/kolosovpetro/OpenIDConnect.AZ204.API)
         - [Quick and simple role-based AAD authentication & authorization using JWT tokens](https://github.com/kolosovpetro/QuickAndSimpleApiAuth)
     - Create and implement shared access signatures
-    - [An Illustrated Guide to OAuth and OpenID Connect](https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc)
     - [RBAC Documentation](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview)
     - [RBAC slides](https://drive.google.com/file/d/1G_0uSgpZpOZI1LQlZyxkZg8BzuzdXj6Q/view?usp=sharing)
     - [SAS token example](https://drive.google.com/file/d/14LXsFtzHo8s6WsiCTqVXsGZ3GSu5n_yV/view?usp=sharing)
