@@ -1,11 +1,17 @@
 ﻿# Create Event Hub using CLI
 
 - Create resource group
-    - `az group create --name "rg-eventhub-training" --location "centralus"`
+    - `$rgName="rg-evenhub-cli"`
+    - `$location="centralus"`
+    - `az group create -n $rgName -l $location`
+
 - Register namespace
-    - `$namespace="eventhubns$(Get-Random)"`
-    - `az eventhubs namespace create --resource-group "rg-eventhub-training" --location "centralus" --name $namespace --sku "Standard"`
+    - `$nsName="eventhubns$(Get-Random 1000)"`
+    - `az eventhubs namespace create -g $rgName -n $nsName -l $location --sku "Standard"`
+
 - Create event hub
-    - `az eventhubs eventhub create --name "hubpkolosov" --namespace $namespace --message-retention 3 --partition-count 4 -g "rg-eventhub-training"`
+    - `$hubName="hubpkolosov"`
+    - `az eventhubs eventhub create -g $rgName -n $hubName --namespace $nsName --message-retention "3" --partition-count "4"`
+
 - Delete resource group
-    - `az group delete --name "rg-eventhub-training"`
+    - `az group delete -n $rgName --yes`
