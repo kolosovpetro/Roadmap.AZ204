@@ -3,29 +3,42 @@
 App service source code: https://github.com/Azure-Samples/azure-event-grid-viewer
 
 - Create resource group
-    - `$rgname="rg-event-grid-$(Get-Random 1000)"`
-    - `New-AzResourceGroup -Name $rgname -Location "westus"`
+    - `$rgName="rg-eventgrid-pwsh"`
+    - `$location="westus"`
+    - `New-AzResourceGroup -Name $rgName -Location $location`
+
 - Register event grid provider
     - `Register-AzResourceProvider -ProviderNamespace Microsoft.EventGrid`
+
 - Check event grid provider registration status
     - `Get-AzResourceProvider -ProviderNamespace Microsoft.EventGrid`
+
 - Create custom event grid topic
-    - `$topicname="topic$(Get-Random 1000)"`
-    - `New-AzEventGridTopic -ResourceGroupName $rgname -Location "westus2" -Name $topicname`
+    - `$topicName="topicpwsh"`
+    - `New-AzEventGridTopic -ResourceGroupName $rgName -Name $topicName -Location $location`
+
 - Create message endpoint
-    - `$sitename="appservice$(Get-Random 1000)"`
+    - `$sitename="app-eventgrid-pwsh"`
     - `$templateUri="https://raw.githubusercontent.com/Azure-Samples/azure-event-grid-viewer/master/azuredeploy.json"`
-    - `New-AzResourceGroupDeployment -ResourceGroupName $rgname -TemplateUri $templateUri -siteName $sitename -hostingPlanName "viewerhost"`
+    - `New-AzResourceGroupDeployment -ResourceGroupName $rgName -TemplateUri $templateUri -siteName $sitename -hostingPlanName "viewerhost"`
+
 - Subscribe to endpoint
     - `$endpoint="https://$sitename.azurewebsites.net/api/updates"`
     - `$subId="fc972a47-036d-42a1-a9f7-83c1f6aaed12"`
     - `$sourceId="/subscriptions/$subId/resourceGroups/$rgname/providers/Microsoft.EventGrid/topics/$topicname"`
-    - `New-AzEventGridSubscription -EventSubscriptionName "demoViewerSub" -Endpoint $endpoint -ResourceGroupName $rgname -TopicName $topicname`
+    - `$eventSubName="demoViewerSub"`
+    - `New-AzEventGridSubscription -ResourceGroupName $rgName -TopicName $topicName -EventSubscriptionName $eventSubName -Endpoint $endpoint`
+
 - Send event to your custom topic
-    - `$gridendpoint=(Get-AzEventGridTopic -ResourceGroupName $rgname -Name $topicname).Endpoint`
-    - `$keys=Get-AzEventGridTopicKey -ResourceGroupName $rgname -Name $topicname`
+    - `$gridEndpoint=(Get-AzEventGridTopic -ResourceGroupName $rgName -Name $topicName).Endpoint`
+    - `$keys=Get-AzEventGridTopicKey -ResourceGroupName $rgName -Name $topicName`
+
 - Delete resource group
-    - `Remove-AzResourceGroup -Name $rgname`
+    - `Remove-AzResourceGroup -Name $rgName`
+
+## Authorization
+
+- Set request header: `aeg-sas-key: $keys`
 
 ## Postman request
 
