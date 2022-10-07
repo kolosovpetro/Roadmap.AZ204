@@ -1,39 +1,55 @@
-﻿# Run containers by using Azure Container Instance
+﻿# Run docker containers using Azure Container Instances
 
 - Create resource group:
-    - `az group create --name "rg-acr-practice" --location "westus"`
-- Create Azure Container Registry (ACR):
-    - `az acr create --resource-group "rg-acr-practice" --name "pkolosovregistry" --sku "Basic"`
-- Build docker image:
-    - `docker build -t "pkolosovregistry.azurecr.io/acr-practice-repository:latest"`
-- Create password using service principal:
-    - `$ACR_REGISTRY_ID=$(az acr show --name "pkolosovregistry" --query "id" --output tsv)`
-    - `$PASSWORD=$(az ad sp create-for-rbac --name "testsp" --scopes $ACR_REGISTRY_ID --role acrpush --query "password" --output tsv)`
-- Define username using service principal:
-    - `$USER_NAME=$(az ad sp list --display-name "testsp" --query "[].appId" --output tsv)`
-- Login to ACR:
-    - `docker login "pkolosovregistry.azurecr.io" --username $USER_NAME --password $PASSWORD`
-- Push image to ACR repository:
-    - `docker image push -a "pkolosovregistry.azurecr.io/acr-practice-repository"`
-- Run container on Azure Container Instances, `dns-name-label` should be unique
+    - `$rgName="rg-acr-practice"`
+    - `$location="westus"`
+    - `az group create -n $rgName -l $location`
 
-```bash
-az container create 
-  --resource-group "rg-acr-practice" 
-  --name "rg-acr-practice-cli-deploy" 
-  --dns-name-label "rg-acr-practice-cli-deploy" 
-  --ports 80 
-  --image "pkolosovregistry.azurecr.io/acr-practice-repository:latest" 
-  --registry-login-server $ACR_URL 
-  --registry-username $USER_NAME 
-  --registry-password $PASSWORD
-```
+- Create Azure Container Registry (ACR)
+    - `$acrName="pkolosovregistry"`
+    - `az acr create -g $rgName -n $acrName --sku "Basic"`
+
+- Build docker image
+    - `$acrUrl="$acrName.azurecr.io"`
+    - `$repo="acr-practice-repository"`
+    - `$tag="latest"`
+    - `docker build -t "$acrUrl/${repo}:$tag" .`
+
+- Define password using service principal (requires AD permissions)
+    - `$acrRegistryId=$(az acr show -n $acrName --query "id" -o tsv)`
+    - `$principalName="testsp"`
+    - `$password=$(az ad sp create-for-rbac -n $principalName --scopes $acrRegistryId --role "acrpush" --query "password" -o tsv)`
+
+- Define username using service principal
+    - `$username=$(az ad sp list --display-name $principalName --query "[].appId" -o tsv)`
+
+- Login to ACR
+    - `docker login $acrUrl -u $username -p $password`
+
+- Push image to ACR repository
+    - `docker image push -a "$acrUrl/${repo}"`
+
+- Delete resource group
+    - `az group delete -n $rgName --yes`
+
+
+- Run container on Azure Container Instances, `dns-name-label` should be unique
+    - `$contName="aci-practice-app"`
+    - `$dnsLabel="aci-practice-app"`
+    - `$image="$acrUrl/${repo}:$tag"`
+    - `az container create -g $rgName -n $contName --dns-name-label $dnsLabel --ports 80 --image $image --registry-login-server $acrUrl --registry-username $username --registry-password $password`
 
 - Confirm that container is running and test access to the web application
-    - `az container show --resource-group "rg-acr-practice" --name "rg-acr-practice-cli-deploy"`
+    - `az container show -g $rgName -n $contName`
+
 - Pull the logs from the container
-    - `az container logs --resource-group "rg-acr-practice" --name "rg-acr-practice-cli-deploy"`
+    - `az container logs -g $rgName -n $contName`
+
 - Build container using ACR
-    - `az acr build --registry $acrName --image "pkolosovregistry.azurecr.io/acr-practice-repository:latest".`
+    - `az acr build --registry $acrName --image $image .`
+
 - Delete the running container
-    - `az container delete --resource-group "rg-acr-practice" --name "rg-acr-practice-cli-deploy" --yes`
+    - `az container delete -g $rgName -n $contName --yes`
+
+- Delete resource group
+    - `az group delete -n $rgName --yes`

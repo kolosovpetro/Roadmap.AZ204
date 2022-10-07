@@ -1,17 +1,25 @@
-﻿# Publish docker image to ACR Powershell
+﻿# Push docker image to ACR via Powershell
 
-- Create resource group:
-    - `$rgname="rg-acr-practice"`
+- Create resource group
+    - `$rgName="rg-acr-practice"`
     - `$location="WestUs"`
-    - `New-AzResourceGroup -Name $rgname -Location $location`
-- Create Azure Container Registry (ACR):
-    - `$registryname="pkolosovregistry"`
-    - `$registry = New-AzContainerRegistry -ResourceGroupName $rgname -Name $registryname -EnableAdminUser -Sku "Basic"`
-- Build docker image:
-    - `docker build -t "$registryname.azurecr.io/acr-practice-repository:latest" .`
-- Login to ACR:
+    - `New-AzResourceGroup -Name $rgName -Location $location`
+
+- Create Azure Container Registry (ACR)
+    - `$acrName="pkolosovregistry"`
+    - `$registry = New-AzContainerRegistry -ResourceGroupName $rgName -Name $acrName -EnableAdminUser -Sku "Basic"`
+
+- Build docker image
+    - `$acrUrl="$acrName.azurecr.io"`
+    - `$repo="acr-practice-repository"`
+    - `$tag="latest"`
+    - `docker build -t "$acrUrl/${repo}:$tag" .`
+
+- Login to ACR
     - `Connect-AzContainerRegistry -Name $registry.Name`
-- Push image to ACR repository:
-    - `docker image push -a "$registryname.azurecr.io/acr-practice-repository"`
+
+- Push image to ACR repository
+    - `docker image push -a "$acrUrl/${repo}"`
+
 - Remove resource group
-    - `Remove-AzResourceGroup -Name $rgname`
+    - `Remove-AzResourceGroup -Name $rgName`
