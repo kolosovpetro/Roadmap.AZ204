@@ -14,16 +14,22 @@
 ### Create VM itself
 
 - Create a resource group
-    - `az group create --name "rg-windows-vm" --location "westus"`
+    - `$rgName="rg-win-vm-cli"`
+    - `$location="westus"`
+    - `az group create -n $rgName -l $location`
 - Create virtual machine
-    - `$vmPassword=$env:AD_TEST_USER_PASSWORD`
-    - `echo $vmPassword`
-    - `az vm create --resource-group "rg-windows-vm" --name "win-vm-cli" --image "win2019datacenter" --admin-username "pkolosov" --admin-password "$vmPassword"`
+    - `$vmName="vm-win-cli"`
+    - `$vmImage="win2019datacenter"`
+    - `$adminUsername="pkolosov"`
+    - `$adminPassword="$env:AD_TEST_USER_PASSWORD"`
+    - `az vm create -g $rgName -n $vmName --image $vmImage --admin-username $adminUsername --admin-password $adminPassword`
 - Open RDP for remote access
-    - `az vm open-port --resource-group "rg-windows-vm" --name "win-vm-cli" --port "3389"`
+    - `$port="3389"`
+    - `az vm open-port -g $rgName -n $vmName --port $port`
 - Get the IP Addresses for Remote Access
-    - `az vm list-ip-addresses --resource-group "rg-windows-vm" --name "win-vm-cli" --output table`
-      [VM_ip_address](./img/01_get_vm_ip_address.PNG)
+    - `az vm list-ip-addresses -g $rgName -n $vmName -o table`
+
+![VM_ip_address](./img/01_get_vm_ip_address.PNG)
 
 ### Connect to the Windows VM via RDP
 
@@ -42,4 +48,4 @@
 
 ### Delete resource group
 
-- `az group delete --name "rg-windows-vm" --yes`
+- `az group delete -n $rgName --yes`
