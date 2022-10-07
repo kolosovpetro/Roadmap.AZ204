@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "functions_test_project": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7121",
+      "launchBrowser": false
+    }
+  }
+}

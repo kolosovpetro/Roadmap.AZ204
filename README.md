@@ -76,7 +76,7 @@ AZ-204 consists of five basic modules such that
 - **Create Azure App Service Web Apps**
     - [App service create CLI](./DevelopAzureComputeSoultions/09_app_service_create_cli.md)
     - [App service create PowerShell](./DevelopAzureComputeSoultions/10_app_service_create_powershell.md)
-    - Enable diagnostic logging
+    - [Enable diagnostic logging](https://github.com/kolosovpetro/AppServiceLogging.AZ204)
     - [App service ZIP deploy CLI](./DevelopAzureComputeSoultions/11_app_service_zip_deploy_cli.md)
     - [App service ARM template deploy (CLI & Powershell)](https://azure.microsoft.com/en-us/resources/templates/webapp-basic-linux/)
     - Configure web app settings

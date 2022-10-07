@@ -4,16 +4,29 @@ Install Azure Functions Core Tools
 locally: [Download Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local)
 
 - Create resource group
-    - `az group create --name "rg-function-app" --location "centralus"`
+    - `$rgName="rg-function-cli"`
+    - `$location="centralus"`
+    - `az group create -n $rgName -l $location`
+
 - Create storage account
-    - `az storage account create --name "storagepkolosov" --resource-group "rg-function-app" --location "centralus" --sku "Standard_ZRS" --kind "StorageV2"`
+    - `$storName="storagepkolosov"`
+    - `az storage account create -g $rgName -n $storName -l $location --sku "Standard_ZRS" --kind "StorageV2"`
+
 - Create function app at Azure
-    - `az functionapp create --resource-group "rg-function-app" --name "funcpkolosov" --runtime "dotnet" --runtime-version "3.1" --os-type "Linux" --storage-account "storagepkolosov" --consumption-plan-location "centralus"`
+    - `$funcName="funcpkolosov"`
+    - `az functionapp create -g $rgName -n $funcName --runtime "dotnet" --functions-version "4" --runtime-version "6" --os-type "Linux" --storage-account $storName --consumption-plan-location $location`
+
 - Create function project source code
     - `func init --worker-runtime dotnet --force`
+
 - Create function
     - `func new --template "HTTP trigger" --name "Echo"`
+
 - Build and start function
     - `func start --build`
+
 - Deploy function
-    - `func azure functionapp publish funcpkolosov`
+    - `func azure functionapp publish $funcName`
+
+- Delete resource group
+    - `az group delete -n $rgName --yes`
