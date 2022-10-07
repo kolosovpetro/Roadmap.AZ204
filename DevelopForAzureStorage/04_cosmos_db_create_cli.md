@@ -1,12 +1,21 @@
 ﻿# Create Cosmos DB using CLI
 
 - Create resource group
-    - `az group create --name "azure-cosmos-demo-rg" --location "westus"`
+    - `$rgName="rg-cosmos-cli"`
+    - `$location="westus"`
+    - `az group create -n $rgName -l $location`
+
 - Create cosmos db account
-    - `az cosmosdb create --name "cosmosdbpkolosov" --resource-group "azure-cosmos-demo-rg"`
+    - `$cosmosDbAccountName="cosmosdbpkolosov"`
+    - `az cosmosdb create -g $rgName -n $cosmosDbAccountName`
+
 - Create database
-    - `az cosmosdb sql database create --account-name "cosmosdbpkolosov" --resource-group "azure-cosmos-demo-rg" --name "MoviesDatabase"`
+    - `$dbName="MoviesDatabase"`
+    - `az cosmosdb sql database create -g $rgName -n $dbName -a $cosmosDbAccountName`
+
 - Create container (table)
-    - `az cosmosdb sql container create -g "azure-cosmos-demo-rg" -a "cosmosdbpkolosov" -d "MoviesDatabase" -n "Movies" --partition-key-path "/id"`
-- Drop resource group
-    - `az group delete --name "azure-cosmos-demo-rg"`
+    - `$contName="Movies"`
+    - `az cosmosdb sql container create -g $rgName -n $contName -d $dbName -a $cosmosDbAccountName --partition-key-path "/id"`
+
+- Delete resource group
+    - `az group delete -n $rgName --yes`

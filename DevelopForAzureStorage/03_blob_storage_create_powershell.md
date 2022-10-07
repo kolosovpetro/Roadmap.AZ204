@@ -1,12 +1,20 @@
 ﻿# Create blob storage using Powershell
 
 - Create resource group
-    - `New-AzResourceGroup -Name "storage-training-rg" -Location "centralus"`
+    - `$rgName="rg-stograge-pwsh"`
+    - `$location="centralus"`
+    - `New-AzResourceGroup -Name $rgName -Location $location`
+
 - Create storage account
-    - `New-AzStorageAccount -ResourceGroupName "storage-training-rg" -Name "storagepkolosov" -Location "centralus" -SkuName "Standard_RAGRS" -Kind "StorageV2"`
+    - `$storName="storagepkolosov"`
+    - `New-AzStorageAccount -ResourceGroupName $rgName -Name $storName -Location $location -SkuName "Standard_ZRS" -Kind "StorageV2"`
+
 - Define storage account context
-    - `$ctx = New-AzStorageContext -StorageAccountName "storagepkolosov" -UseConnectedAccount`
+    - `$ctx = New-AzStorageContext -StorageAccountName $storName -UseConnectedAccount`
+
 - Create storage container
-    - `New-AzStorageContainer -Name "pkolosovcontainer" -Context $ctx`
+    - `$contName="containerpkolosov"`
+    - `New-AzStorageContainer -Name $contName -Context $ctx`
+
 - Delete resource group
-  - `Remove-AzResourceGroup -Name "storage-training-rg"`
+    - `Remove-AzResourceGroup -Name $rgName`
