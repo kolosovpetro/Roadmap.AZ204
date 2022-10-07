@@ -17,20 +17,27 @@
 ### Create resource group
 
 - Create a Resource Group
-    - `New-AzResourceGroup -Name "rg-win-vm-powershell" -Location "CentralUS"`
+    - `$rgName="rg-win-vm-pwsh"`
+    - `$location="CentralUS"`
+    - `New-AzResourceGroup -Name $rgName -Location $location`
 
 ### Create a credential to use in the VM creation
 
-- `$username = "razumovsky_r"`
-- `$password = ConvertTo-SecureString "$env:AD_TEST_USER_PASSWORD" -AsPlainText -Force`
-- `$WindowsCred = New-Object System.Management.Automation.PSCredential ($username, $password)`
+- `$adminUsername="razumovsky_r"`
+- `$password="$env:AD_TEST_USER_PASSWORD"`
+- `$adminPassword=ConvertTo-SecureString $password -AsPlainText -Force`
+- `$psCredential = New-Object System.Management.Automation.PSCredential ($adminUsername, $adminPassword)`
 
 ### Create a Windows Virtual Machine, can be used for both Windows and Linux.
 
 Note, you can create Windows or Linux VMs with PowerShell by specifying the correct Image parameter.
 **This command does not create public IP Address**
 
-- `New-AzVM -ResourceGroupName "rg-win-vm-powershell" -Name "vm-win-pwsh" -Image "Win2019Datacenter" -Credential $WindowsCred -OpenPorts "3389"`
+- `$vmName="vm-win-pwsh"`
+- `$image="Win2019Datacenter"`
+- `Get-AzVMSize -Location $location`
+- `$vmSize="Standard_B1ms"`
+- `New-AzVM -ResourceGroupName $rgName -Name $vmName -Image $image -Credential $psCredential -OpenPorts "3389" -PublicIpSku "Standard" -Size $vmSize`
 
 ### Create public IP Address for the VM using Azure Portal
 
@@ -40,8 +47,8 @@ Note, you can create Windows or Linux VMs with PowerShell by specifying the corr
 
 - Go to `Azure Portal -> VM -> Connect (top left corner) -> RDP`
 - Download RDP file
-- Connect to VM providing username and password used during its creation
+- Connect to VM providing username and password
 
 ### Delete resource group
 
-- `Remove-AzResourceGroup -Name "rg-win-vm-powershell"`
+- `Remove-AzResourceGroup -Name $rgName`
