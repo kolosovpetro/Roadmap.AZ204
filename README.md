@@ -67,7 +67,7 @@ AZ-204 consists of five basic modules such that
         - [ARM template deploy CLI](./DevelopAzureComputeSoultions/04_arm_template_deploy_cli.md)
         - [ARM template deploy Powershell](./DevelopAzureComputeSoultions/05_arm_template_deploy_powershell.md)
     - Configure container images for solutions
-    - [ACR docker image push CLI](./DevelopAzureComputeSoultions/06_acr_docker_image_push_cli.md)
+    - [ACR docker image push CLI || Deploy container to web app](./DevelopAzureComputeSoultions/06_acr_docker_image_push_cli.md)
     - [ACR docker image push Powershell](./DevelopAzureComputeSoultions/07_acr_docker_image_push_powershell.md)
     - [ACI run docker container](./DevelopAzureComputeSoultions/08_aci_run_docker_container.md)
     - Pluralsight
