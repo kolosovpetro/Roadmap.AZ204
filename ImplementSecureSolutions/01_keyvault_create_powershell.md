@@ -1,8 +1,13 @@
 ﻿# Create KeyVault using Powershell
 
 - Create resource group
-    - `New-AzResourceGroup -Name "keyvault-training-rg" -Location "centralus"`
+    - `$rgName="rg-keyvault-pwsh"`
+    - `$location="centralus"`
+    - `New-AzResourceGroup -Name $rgName -Location $location`
+
 - Create key vault
-    - `New-AzKeyVault -Name "pkolosovkeyvault" -ResourceGroupName "keyvault-training-rg" -Location "northeurope"`
+    - `$kvName="pkolosovkeyvault"`
+    - `New-AzKeyVault -ResourceGroupName $rgName -Name $kvName -Location $location`
+
 - Delete resource group
-    - `Remove-AzResourceGroup -Name "keyvault-training-rg"`
+    - `Remove-AzResourceGroup -Name $rgName`

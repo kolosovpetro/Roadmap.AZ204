@@ -1,8 +1,13 @@
 ﻿# Create KeyVault using CLI
 
 - Create resource group
-    - `az group create --name "rg-keyvault-training" --location "EastUS"`
+    - `$rgName="rg-kv-cli"`
+    - `$location="EastUS"`
+    - `az group create -n $rgName -l $location`
+
 - Create key vault
-    - `az keyvault create --name "vaultpkolosov$(Get-Random)" --resource-group "rg-keyvault-training" --location "EastUS"`
+    - `$kvName="vaultpkolosov$(Get-Random)"`
+    - `az keyvault create -g $rgName -n $kvName -l $location`
+
 - Delete resource group
-    - `az group delete --name "rg-keyvault-training"`
+    - `az group delete -n $rgName --yes`

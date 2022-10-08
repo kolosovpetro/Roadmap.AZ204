@@ -1,22 +1,21 @@
 ﻿# Create Notification hub using PowerShell
 
-- Set appropriate values for these variables
-    - `$resourceGroupName = "rg-hub-$(Get-Random 1000)"`
-    - `$nhubnamespace = "hubns$(Get-Random 1000)"`
-    - `$location = "East US"`
-
-- Create a resource group.
-    - `New-AzResourceGroup -Name $resourceGroupName -Location $location`
+- Create a resource group
+    - `$rgName="rg-hub-pwsh"`
+    - `$location="East US"`
+    - `New-AzResourceGroup -Name $rgName -Location $location`
 
 - Create a namespace for the resource group
-    - `New-AzNotificationHubsNamespace -ResourceGroup $resourceGroupName -Namespace $nhubnamespace -Location $location`
+    - `$nsName="eventhubnspwsh"`
+    - `New-AzNotificationHubsNamespace -ResourceGroup $rgName -Namespace $nsName -Location $location`
 
 - Create an input JSON file that you use with the New-AzNotificationHub command
     - `$text = '{"name": "MyNotificationHub",  "Location": "East US",  "Properties": { }}'`
     - `$text | Out-File "NotificationHubConfig.json"`
 
 - Create a notification hub
-    - `New-AzNotificationHub -ResourceGroup $resourceGroupName -Namespace $nhubnamespace -InputFile "./NotificationHubConfig.json"`
+    - `$inputFilePath="./NotificationHubConfig.json"`
+    - `New-AzNotificationHub -ResourceGroup $rgName -Namespace $nsName -InputFile $inputFilePath`
 
 - Delete resource group
-    - `Remove-AzResourceGroup -ResourceGroupName $resourceGroupName`
+    - `Remove-AzResourceGroup -ResourceGroupName $rgName`

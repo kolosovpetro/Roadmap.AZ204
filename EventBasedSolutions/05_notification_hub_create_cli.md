@@ -1,27 +1,30 @@
 ﻿# Create Notification hub using CLI
 
 - Create resource group
-    - `$rgname="rg-nh-$(Get-Random 1000)"`
-    - `az group create --name $rgname --location "westus2"`
+    - `$rgName="rg-nh-cli`
+    - `$location="westus2"`
+    - `az group create -n $rgName -l $location`
+
 - Create notification hub namespace
-    - `$hubnamespace="hubnamespace$(Get-Random 1000)"`
-    - `az notification-hub namespace check-availability --name $hubnamespace`
-    - `az notification-hub namespace create --resource-group $rgname --name $hubnamespace --location "westus2" --sku "Free"`
-    - `az notification-hub namespace list --resource-group $rgname`
+    - `$nsName="hubnamespacecli`
+    - `az notification-hub namespace check-availability -n $nsName`
+    - `az notification-hub namespace create -g $rgName -n $nsName -l $location --sku "Free"`
+    - `az notification-hub namespace list -g $rgName`
+
 - Create notification hub
-    - `$hubname="testhub-$(Get-Random 1000)"`
-    - `az notification-hub create --resource-group $rgname --namespace-name $hubnamespace --name $hubname --location "westus2"`
-    - `az notification-hub list --resource-group $rgname --namespace-name $hubnamespace --output table`
+    - `$hubName="testhub-cli"`
+    - `az notification-hub create -g $rgName -n $hubName -l $location --namespace-name $nsName`
+    - `az notification-hub list -g $rgName --namespace-name $nsName -o table`
 
 # Work with access policies
 
 - List all policies
-    - `az notification-hub authorization-rule list --resource-group $rgname --namespace-name $hubnamespace --notification-hub-name $hubname --output table`
+    - `az notification-hub authorization-rule list -g $rgName --namespace-name $nsName --notification-hub-name $hubName -o table`
 - Create authorization rule
-    - `$rulename="spnhub1key"`
-    - `az notification-hub authorization-rule create --resource-group $rgname --namespace-name $hubnamespace --notification-hub-name $hubname --name $rulename --rights Listen Manage Send`
+    - `$ruleName="spnhub1key"`
+    - `az notification-hub authorization-rule create -g $rgName -n $ruleName --namespace-name $nsName --notification-hub-name $hubName --rights Listen Manage Send`
 - Get access keys
-    - `az notification-hub authorization-rule list-keys --resource-group $rgname --namespace-name $hubnamespace --notification-hub-name $hubname --name DefaultListenSharedAccessSignature --output table`
-    - `az notification-hub authorization-rule list-keys --resource-group $rgname --namespace-name $hubnamespace --notification-hub-name $hubname --name $rulename --output table`
+    - `az notification-hub authorization-rule list-keys -g $rgName -n "DefaultListenSharedAccessSignature" --namespace-name $nsName --notification-hub-name $hubName -o table`
+    - `az notification-hub authorization-rule list-keys -g $rgName -n $ruleName --namespace-name $nsName --notification-hub-name $hubName -o table`
 - Delete resource group
-    - `az group delete --name $rgname`
+    - `az group delete -n $rgName --yes`
