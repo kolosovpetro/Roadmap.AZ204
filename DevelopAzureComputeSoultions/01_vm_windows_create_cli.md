@@ -2,14 +2,17 @@
 
 ### Login and subscription management
 
-- Login to your account via CLI
+- Login to your account using device code
     - `az login --use-device-code`
+
 - Check available subscriptions
     - `az account subscription list`
+
 - Check default subscription you have active
     - `az account list -o table`
+
 - Change subscription if necessary
-    - `az account set --subscription "name or id"`
+    - `az account set --subscription $subNameOrId`
 
 ### Create VM itself
 
@@ -17,15 +20,18 @@
     - `$rgName="rg-win-vm-cli"`
     - `$location="westus"`
     - `az group create -n $rgName -l $location`
+
 - Create virtual machine
     - `$vmName="vm-win-cli"`
     - `$vmImage="win2019datacenter"`
     - `$adminUsername="pkolosov"`
     - `$adminPassword="$env:AD_TEST_USER_PASSWORD"`
     - `az vm create -g $rgName -n $vmName --image $vmImage --admin-username $adminUsername --admin-password $adminPassword`
+
 - Open RDP for remote access
     - `$port="3389"`
     - `az vm open-port -g $rgName -n $vmName --port $port`
+
 - Get the IP Addresses for Remote Access
     - `az vm list-ip-addresses -g $rgName -n $vmName -o table`
 

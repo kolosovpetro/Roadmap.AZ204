@@ -4,10 +4,13 @@
 
 - Login to your account via CLI
     - `az login --use-device-code`
+
 - Check available subscriptions
     - `az account subscription list`
+
 - Check default subscription you have active
     - `az account list -o table`
+
 - Change subscription if necessary
     - `az account set --subscription "name or id"`
 
@@ -17,6 +20,7 @@
     - `$rgName="rg-ubuntu-vm-cli"`
     - `$location="westus"`
     - `az group create -n $rgName -l $location`
+
 - Generate RSA key pair in current directory
     - `mkdir ./.ssh`
     - `ssh-keygen -f "./.ssh/id_rsa"`
@@ -34,11 +38,14 @@
 
 - Open SSH port of the VM
     - `az vm open-port -g $rgName -n $vmName --port "22"`
+
 - Check IP address of the VM
     - `az vm list-ip-addresses -g $rgName -n $vmName -o table`
+
 - Define IP address variable
     - `$ipAddress=$(az vm list-ip-addresses -g $rgName -n $vmName --query '[].{ip:virtualMachine.network.publicIpAddresses[0].ipAddress}' -o tsv)`
     - `echo $ipAddress`
+
 - Connect to the VM via SSH
     - `ssh $adminUsername@$ipAddress`
 

@@ -19,7 +19,7 @@ locally: [Download Azure Functions Core Tools](https://docs.microsoft.com/en-us/
 - Create function project source code
     - `func init --worker-runtime dotnet --force`
 
-- Create function
+- Create function with template
     - `func new --template "HTTP trigger" --name "Echo"`
 
 - Build and start function

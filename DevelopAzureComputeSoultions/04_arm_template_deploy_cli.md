@@ -17,6 +17,7 @@
     - `$rgName="rg-ubuntu-vm-arm"`
     - `$location="westus"`
     - `az group create -n $rgName -l $location`
+
 - Deploy template
     - `$templatePath = "./arm_templates/exported-portal-rg-ubuntu-vm/template.json"`
     - `$parametersPath = "./arm_templates/exported-portal-rg-ubuntu-vm/parameters.json"`

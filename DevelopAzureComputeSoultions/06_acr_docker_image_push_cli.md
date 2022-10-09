@@ -33,7 +33,7 @@
 
 - Push image to ACR repository
     - `docker image push -a "$acrUrl/${repo}"`
-    - OR: `docker push "$acrUrl/${repo}:newdeploy"`
+    - OR: `docker push "$acrUrl/${repo}:$tag"`
 
 - Delete resource group
     - `az group delete -n $rgName --yes`
