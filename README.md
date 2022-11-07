@@ -52,6 +52,12 @@ Also, keep especial attention to the following topics and repeat them frequently
 As a short conclusion, I want to mention that I am also relatively newbie on Azure,
 so this study approach is as well an experiment for me, we'll see how it works :)
 
+PS I have passed AZ-204 exam on 7th November 2022, after around 1.5 month of preparation.
+
+- https://www.credly.com/badges/fbc55a56-53d1-4098-905f-91051da9eab1/public_url
+
+![Az204](./az204.PNG)
+
 ## Topics covered by AZ-204 exam
 
 AZ-204 consists of five basic modules such that
